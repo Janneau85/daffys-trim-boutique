@@ -103,17 +103,6 @@ const Footer = () => {
               <p>+31 46 123 4567</p>
               <p>info@daffystrimsalon.nl</p>
             </div>
-
-            <div className="mt-4">
-              <h5 className="font-semibold mb-2 text-primary-glow text-sm">
-                Openingstijden
-              </h5>
-              <div className="text-warm-white/80 text-sm space-y-1">
-                <p>Di-Vr: 09:00 - 17:00</p>
-                <p>Za: 09:00 - 15:00</p>
-                <p>Zo-Ma: Gesloten</p>
-              </div>
-            </div>
           </div>
         </div>
 
