@@ -45,7 +45,7 @@ const HeroSection = () => {
                 className="flex-1 sm:flex-none"
               >
                 <MessageCircle className="w-5 h-5" />
-                WhatsApp Afspraak
+                WhatsApp
               </Button>
               <Button 
                 variant="elegant" 
