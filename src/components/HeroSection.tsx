@@ -50,11 +50,11 @@ const HeroSection = () => {
               <Button 
                 variant="elegant" 
                 size="lg"
-                onClick={scrollToContact}
+                onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
                 className="flex-1 sm:flex-none"
               >
                 <Calendar className="w-5 h-5" />
-                Contactformulier
+                Online Afspraak Plannen
               </Button>
             </div>
 
