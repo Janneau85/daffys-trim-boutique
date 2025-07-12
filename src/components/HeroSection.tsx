@@ -17,6 +17,9 @@ const HeroSection = () => {
         <div className="container mx-auto px-4 py-20 pt-32">
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">
+              <div className="inline-block bg-card p-3 rounded-lg shadow-soft border border-border">
+                <span className="text-sm font-semibold text-primary">✨ 5+ jaar ervaring</span>
+              </div>
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-black leading-tight">
                   Welkom bij
