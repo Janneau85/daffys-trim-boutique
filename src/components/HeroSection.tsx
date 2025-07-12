@@ -31,29 +31,29 @@ const HeroSection = () => {
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
 
-              <div className="relative flex items-start gap-4 justify-center">
-                {/* Logo box - links */}
-                <div className="bg-card p-4 rounded-lg shadow-soft border border-border w-20 h-20 flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
-                    alt="Daffy's Trimsalon Logo"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                
+              <div className="relative flex justify-center">
                 {/* Bullet points - midden */}
-                <div className="bg-card p-6 rounded-lg shadow-soft border border-border flex-1 max-w-md">
+                <div className="bg-card p-6 rounded-lg shadow-soft border border-border max-w-md relative">
+                  {/* Logo box - links overlopend */}
+                  <div className="absolute -left-8 -top-4 bg-card p-3 rounded-lg shadow-soft border border-border w-16 h-16 flex items-center justify-center">
+                    <img 
+                      src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
+                      alt="Daffy's Trimsalon Logo"
+                      className="w-full h-full object-contain"
+                    />
+                  </div>
+                  
+                  {/* 5+ jaar ervaring box - rechts overlopend */}
+                  <div className="absolute -right-6 -top-4 bg-primary text-primary-foreground px-3 py-2 rounded-lg text-sm font-semibold shadow-soft">
+                    ✨ 5+ jaar ervaring
+                  </div>
+                  
                   <div className="space-y-2 text-black font-elegant">
                     <p>✨ Persoonlijke aandacht voor elk dier</p>
                     <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
                     <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
                     <p>🌿 Rustige, stressvrije omgeving</p>
                   </div>
-                </div>
-                
-                {/* 5+ jaar ervaring box - rechts */}
-                <div className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold shadow-soft">
-                  ✨ 5+ jaar ervaring
                 </div>
               </div>
 
