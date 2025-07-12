@@ -7,43 +7,37 @@ const ReviewsSection = () => {
       name: "Anton Janssen & Nala",
       rating: 5,
       text: "Ik breng al geruime tijd mijn Maltezer naar Daffy's Trimsalon en dat tot grote tevredenheid. Nala vindt het ook geen probleem om er naar toe te gaan en ziet ze er na de behandeling mooi en verzorgd uit. Ook prettig dat ik twee dagen voor de afspraken een herinnering ontvang. Eventuele aandachtspunten, bijvoorbeeld een bultje onder het oog waarvoor een dierenarts moet worden geraadpleegd, worden gesignaleerd. Kortom, alle aandacht voor de cliënt.",
-      dogBreed: "Maltezer",
-      date: "23 jan 2024"
+      dogBreed: "Maltezer"
     },
     {
       name: "Senna Dols",
       rating: 5,
       text: "Super lieve meid, mijn hondje komt altijd supermooi van Daffy's trimsalon vandaan… super tevreden!😘",
-      dogBreed: "",
-      date: "12 apr 2023"
+      dogBreed: ""
     },
     {
       name: "Bo & Tygie",
       rating: 5,
       text: "Super leuk/lief in de omgang met de diertjes en persoonlijk!! Tygie en ik zijn zeer tevreden en raden het iedereen aan tot over 8 weekjes weer 🫶",
-      dogBreed: "",
-      date: "1 mei 2024"
+      dogBreed: ""
     },
     {
       name: "Emil Kerckhoffs",
       rating: 5,
       text: "Top ervaring, wij laten onze lieftallige 4 voeter om de 3 maanden netjes verzorgen bij Daffy's Trimsalon. Altijd vriendelijk, tijd voor een praatje, geeft goed advies en verstaat haar vak heel goed. Wij raden Daffy's Trimsalon zeer zeker aan!!!",
-      dogBreed: "",
-      date: "1 mei 2024"
+      dogBreed: ""
     },
     {
       name: "Belinda Vluggen & Ravi",
       rating: 5,
       text: "Super tevreden, onze Ravi is altijd mooi in model getrimt, neemt alle tijd en rust voor een goede trim beurt.",
-      dogBreed: "",
-      date: "1 mei 2024"
+      dogBreed: ""
     },
     {
       name: "Tichaporn Sooksarn",
       rating: 5,
       text: "Goede Trimsalon, Goede service.",
-      dogBreed: "",
-      date: "31 weken geleden"
+      dogBreed: ""
     }
   ];
 
@@ -83,14 +77,11 @@ const ReviewsSection = () => {
                     <cite className="font-semibold text-black not-italic">
                       {review.name}
                     </cite>
-                    <div className="flex flex-col items-end text-xs">
-                      {review.dogBreed && (
-                        <span className="bg-primary/10 text-primary px-2 py-1 rounded-full mb-1">
-                          {review.dogBreed}
-                        </span>
-                      )}
-                      <span className="text-gray-500">{review.date}</span>
-                    </div>
+                    {review.dogBreed && (
+                      <span className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs">
+                        {review.dogBreed}
+                      </span>
+                    )}
                   </div>
                 </div>
               </CardContent>
