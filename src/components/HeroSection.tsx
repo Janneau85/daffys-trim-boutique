@@ -17,9 +17,6 @@ const HeroSection = () => {
         <div className="container mx-auto px-4 py-20 pt-32">
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">
-              <div className="inline-block bg-card p-3 rounded-lg shadow-soft border border-border">
-                <span className="text-sm font-semibold text-primary">✨ 5+ jaar ervaring</span>
-              </div>
               <div className="space-y-4">
                 <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-black leading-tight">
                   Welkom bij
@@ -34,7 +31,10 @@ const HeroSection = () => {
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
 
-              <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
+              <div className="bg-card p-6 rounded-lg shadow-soft border border-border relative">
+                <div className="absolute -top-3 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
+                  ✨ 5+ jaar ervaring
+                </div>
                 <div className="space-y-2 text-black font-elegant">
                   <p>✨ Persoonlijke aandacht voor elk dier</p>
                   <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
