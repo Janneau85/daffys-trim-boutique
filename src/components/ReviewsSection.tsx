@@ -78,7 +78,7 @@ const ReviewsSection = () => {
                 <Star key={i} className="w-6 h-6 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
-            <span className="text-2xl font-bold text-primary">4.9/5</span>
+            <span className="text-2xl font-bold text-primary">5.0/5</span>
           </div>
           <p className="text-black font-elegant">
             Gemiddelde beoordeling van 3 Google Reviews
