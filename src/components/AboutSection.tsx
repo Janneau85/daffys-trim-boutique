@@ -25,10 +25,10 @@ const AboutSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-4xl font-luxury font-bold text-foreground">
-                Kennismaken met Daffy
+                Kennismaken met Daphne
               </h2>
               <p className="text-lg text-muted-foreground font-elegant leading-relaxed">
-                Hallo! Ik ben Daffy, een gecertificeerd hondentrimster met een passie 
+                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
                 voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
