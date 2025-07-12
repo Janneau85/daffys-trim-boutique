@@ -96,12 +96,6 @@ const ContactSection = () => {
                     Gemiddelde wachttijd: <span className="font-semibold text-primary">6 weken</span>
                   </p>
                 </div>
-                <div className="text-sm text-muted-foreground space-y-1">
-                  <p className="font-medium text-foreground">Indicatieve tijden:</p>
-                  <p>• Dinsdag t/m Vrijdag: 09:00 - 17:00</p>
-                  <p>• Zaterdag: 09:00 - 15:00</p>
-                  <p>• Maandag & Zondag: Gesloten</p>
-                </div>
               </CardContent>
             </Card>
 
