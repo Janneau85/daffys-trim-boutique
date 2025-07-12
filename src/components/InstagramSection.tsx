@@ -9,11 +9,11 @@ const InstagramSection = () => {
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Instagram className="w-8 h-8 text-primary" />
-            <h2 className="text-4xl font-luxury font-bold text-foreground">
+            <h2 className="text-4xl font-luxury font-bold text-black">
               @daffys_trimsalon
             </h2>
           </div>
-          <p className="text-lg text-muted-foreground font-elegant max-w-2xl mx-auto">
+          <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
             Volg ons op Instagram voor de nieuwste transformaties, tips en 
             behind-the-scenes van onze salon
           </p>

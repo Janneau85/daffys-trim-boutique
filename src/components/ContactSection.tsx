@@ -7,10 +7,10 @@ const ContactSection = () => {
     <section id="contact" className="py-20 bg-warm-white/40 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-luxury font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-luxury font-bold text-black mb-4">
             Contact & Afspraak
           </h2>
-          <p className="text-lg text-muted-foreground font-elegant max-w-2xl mx-auto">
+          <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
             Klaar om jouw hondje te laten verwennen? Neem contact op voor een afspraak 
             of maak direct online een afspraak.
           </p>

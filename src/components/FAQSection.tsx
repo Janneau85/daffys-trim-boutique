@@ -28,10 +28,10 @@ const FAQSection = () => {
     <section id="faq" className="py-20 bg-warm-white/40 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-luxury font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-luxury font-bold text-black mb-4">
             Veel Gestelde Vragen
           </h2>
-          <p className="text-lg text-muted-foreground font-elegant max-w-2xl mx-auto">
+          <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
             Hier vind je antwoorden op de meest gestelde vragen. Heb je nog andere vragen? 
             Neem gerust contact op!
           </p>

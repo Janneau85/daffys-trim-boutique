@@ -18,29 +18,22 @@ const HeroSection = () => {
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">
               <div className="space-y-4">
-                <div className="flex justify-center mb-8">
-                  <img 
-                    src="/lovable-uploads/eec0d6a1-ba93-4beb-b705-1a38c3190de7.png" 
-                    alt="Daffy's Trimsalon Logo" 
-                    className="w-56 h-56 object-contain"
-                  />
-                </div>
-                <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-foreground leading-tight">
+                <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-black leading-tight">
                   Welkom bij
-                  <span className="block text-primary font-luxury">
+                  <span className="block text-black font-luxury">
                     Daffy's Trimsalon
                   </span>
                 </h1>
               </div>
 
-              <p className="text-lg text-foreground font-elegant leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg text-black font-elegant leading-relaxed max-w-2xl mx-auto">
                 Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
                 voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
 
               <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
-                <div className="space-y-2 text-muted-foreground font-elegant">
+                <div className="space-y-2 text-black font-elegant">
                   <p>✨ Persoonlijke aandacht voor elk dier</p>
                   <p>🏆 Vakkundige verzorging door gecertificeerd trimster</p>
                   <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
@@ -49,31 +42,31 @@ const HeroSection = () => {
               </div>
 
               <div className="bg-card p-6 rounded-lg border border-border shadow-soft">
-                <h3 className="font-luxury text-xl text-primary mb-3">
+                <h3 className="font-luxury text-xl text-black mb-3">
                   Mijn specialisaties
                 </h3>
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground">Pomeranian Expert</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-semibold text-black">Pomeranian Expert</h4>
+                    <p className="text-sm text-black">
                       Gespecialiseerd in de unieke vacht van Pomeranians
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground">Kleine Rassen</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-semibold text-black">Kleine Rassen</h4>
+                    <p className="text-sm text-black">
                       Extra zorgvuldig met onze kleinste vriendjes
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground">Puppy's</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-semibold text-black">Puppy's</h4>
+                    <p className="text-sm text-black">
                       Eerste trimbeurt? Ik maak er een positieve ervaring van
                     </p>
                   </div>
                   <div className="space-y-2">
-                    <h4 className="font-semibold text-foreground">Gedragsbegeleiding</h4>
-                    <p className="text-sm text-muted-foreground">
+                    <h4 className="font-semibold text-black">Gedragsbegeleiding</h4>
+                    <p className="text-sm text-black">
                       Rustige aanpak voor angstige hondjes
                     </p>
                   </div>
@@ -101,22 +94,22 @@ const HeroSection = () => {
                 </Button>
               </div>
 
-              <div className="text-sm text-muted-foreground font-elegant">
+              <div className="text-sm text-black font-elegant">
                 📍 Spechtstraat 9, 6135 EJ Sittard
               </div>
 
               <div className="flex items-center justify-center space-x-6 pt-4">
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-primary">500+</p>
-                  <p className="text-sm text-muted-foreground">Blije hondjes</p>
+                  <p className="text-2xl font-bold text-black">500+</p>
+                  <p className="text-sm text-black">Blije hondjes</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-primary">100%</p>
-                  <p className="text-sm text-muted-foreground">Liefde & zorg</p>
+                  <p className="text-2xl font-bold text-black">100%</p>
+                  <p className="text-sm text-black">Liefde & zorg</p>
                 </div>
                 <div className="text-center">
-                  <p className="text-2xl font-bold text-primary">5★</p>
-                  <p className="text-sm text-muted-foreground">Klantbeoordeling</p>
+                  <p className="text-2xl font-bold text-black">5★</p>
+                  <p className="text-sm text-black">Klantbeoordeling</p>
                 </div>
               </div>
             </div>

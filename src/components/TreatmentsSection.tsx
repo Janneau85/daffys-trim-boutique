@@ -8,10 +8,10 @@ const TreatmentsSection = () => {
     <section id="behandelingen" className="py-20 bg-warm-white/50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-luxury font-bold text-foreground mb-4">
+          <h2 className="text-4xl font-luxury font-bold text-black mb-4">
             Prijslijst & Behandelingen
           </h2>
-          <p className="text-lg text-muted-foreground font-elegant max-w-2xl mx-auto">
+          <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
             Wij zijn gespecialiseerd in het trimmen van Pomeranians, maar ook honden van andere rassen zijn van harte welkom.
           </p>
         </div>
