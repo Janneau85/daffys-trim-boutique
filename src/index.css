@@ -121,25 +121,31 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    background-image: var(--hexagon-pattern);
-    background-size: 400px 400px;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    opacity: 1;
-  }
-  
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: var(--hexagon-pattern);
-    background-size: 400px 400px;
-    background-repeat: repeat;
-    opacity: 0.03;
-    pointer-events: none;
-    z-index: -1;
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(0 0% 100% / 0.05) 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, hsl(0 0% 100% / 0.05) 2px, transparent 2px),
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 20px,
+        hsl(0 0% 100% / 0.02) 21px,
+        hsl(0 0% 100% / 0.02) 22px
+      ),
+      repeating-linear-gradient(
+        60deg,
+        transparent,
+        transparent 20px,
+        hsl(0 0% 100% / 0.02) 21px,
+        hsl(0 0% 100% / 0.02) 22px
+      ),
+      repeating-linear-gradient(
+        120deg,
+        transparent,
+        transparent 20px,
+        hsl(0 0% 100% / 0.02) 21px,
+        hsl(0 0% 100% / 0.02) 22px
+      );
+    background-size: 60px 60px, 60px 60px, 40px 40px, 40px 40px, 40px 40px;
+    background-position: 0 0, 30px 30px, 0 0, 0 0, 0 0;
   }
 }
