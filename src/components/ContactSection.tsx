@@ -86,26 +86,22 @@ const ContactSection = () => {
                   Openingstijden
                 </CardTitle>
               </CardHeader>
-              <CardContent className="space-y-2">
-                <div className="flex justify-between">
-                  <span>Maandag</span>
-                  <span className="text-muted-foreground">Gesloten</span>
+              <CardContent className="space-y-3">
+                <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
+                  <p className="font-semibold text-primary mb-2">⚠️ Belangrijk</p>
+                  <p className="text-sm text-foreground">
+                    Uitsluitend op afspraak
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Gemiddelde wachttijd: <span className="font-semibold text-primary">6 weken</span>
+                  </p>
                 </div>
-                <div className="flex justify-between">
-                  <span>Dinsdag - Vrijdag</span>
-                  <span>09:00 - 17:00</span>
+                <div className="text-sm text-muted-foreground space-y-1">
+                  <p className="font-medium text-foreground">Indicatieve tijden:</p>
+                  <p>• Dinsdag t/m Vrijdag: 09:00 - 17:00</p>
+                  <p>• Zaterdag: 09:00 - 15:00</p>
+                  <p>• Maandag & Zondag: Gesloten</p>
                 </div>
-                <div className="flex justify-between">
-                  <span>Zaterdag</span>
-                  <span>09:00 - 15:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Zondag</span>
-                  <span className="text-muted-foreground">Gesloten</span>
-                </div>
-                <p className="text-sm text-muted-foreground mt-4">
-                  Afspraken altijd op afspraak
-                </p>
               </CardContent>
             </Card>
 

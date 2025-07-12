@@ -3,6 +3,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQSection = () => {
   const faqs = [
     {
+      question: "Hoe ver van tevoren moet ik een afspraak maken?",
+      answer: "Ik werk uitsluitend op afspraak en de gemiddelde wachttijd is ongeveer 6 weken. Het is dus verstandig om ruim van tevoren te bellen of een berichtje te sturen. Tijdens drukke perioden (zoals voor de feestdagen) kan de wachttijd nog iets langer zijn. Plan dus op tijd!"
+    },
+    {
       question: "Waarom mag ik er niet bij blijven tijdens de behandeling?",
       answer: "Voor de beste verzorging is het belangrijk dat jouw hondje zich volledig kan concentreren op mij als trimster. Eigenaren in de buurt kunnen afleidend werken of stress veroorzaken. Jouw hondje is in veilige handen en ik zorg ervoor dat hij/zij zich op zijn gemak voelt. Je kunt natuurlijk altijd even bellen om te horen hoe het gaat!"
     },
