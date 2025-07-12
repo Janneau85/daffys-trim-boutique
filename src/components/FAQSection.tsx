@@ -3,40 +3,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 const FAQSection = () => {
   const faqs = [
     {
-      question: "Hoe ver van tevoren moet ik een afspraak maken?",
-      answer: "Ik werk uitsluitend op afspraak en de gemiddelde wachttijd is ongeveer 6 weken. Het is dus verstandig om ruim van tevoren te bellen of een berichtje te sturen. Tijdens drukke perioden (zoals voor de feestdagen) kan de wachttijd nog iets langer zijn. Plan dus op tijd!"
+      question: "Kan ik bij de behandeling van mijn huisdier blijven?",
+      answer: "Nee, om de veiligheid en het welzijn van zowel uw huisdier als ons team te waarborgen, vragen wij eigenaren vriendelijk om tijdens de behandeling niet aanwezig te zijn. Wij begrijpen dat u zich betrokken voelt bij het welzijn van uw huisdier, maar het is belangrijk om te weten dat onze ervaren professionals getraind zijn om uw huisdier de best mogelijke zorg te bieden. Uw aanwezigheid kan onbedoeld stress en afleiding veroorzaken voor uw huisdier en het behandelingsproces bemoeilijken. Tijdens de behandeling kunt u erop vertrouwen dat uw huisdier in goede handen is. We houden u graag op de hoogte van het verloop van de behandeling en beantwoorden al uw vragen en zorgen voor en na de afspraak. Uw begrip en medewerking helpen ons om de behandeling soepel en veilig te laten verlopen. Als u specifieke vragen heeft over de behandeling van uw huisdier, aarzel dan niet om contact met ons op te nemen. We staan klaar om u te assisteren en uw huisdier de best mogelijke zorg te bieden."
     },
     {
-      question: "Waarom mag ik er niet bij blijven tijdens de behandeling?",
-      answer: "Voor de beste verzorging is het belangrijk dat jouw hondje zich volledig kan concentreren op mij als trimster. Eigenaren in de buurt kunnen afleidend werken of stress veroorzaken. Jouw hondje is in veilige handen en ik zorg ervoor dat hij/zij zich op zijn gemak voelt. Je kunt natuurlijk altijd even bellen om te horen hoe het gaat!"
-    },
-    {
-      question: "Wanneer mag mijn hond voor het eerst getrimd worden?",
-      answer: "Puppy's kunnen vanaf 16 weken (4 maanden) voor het eerst komen, mits ze volledig zijn ingeënt. Voor de eerste keer bied ik een speciale introductieprijs van €25 aan. We houden het kort en positief, zodat jouw puppy een fijne eerste ervaring heeft. Dit legt de basis voor toekomstige bezoeken."
-    },
-    {
-      question: "Wat als mijn hond vlooien heeft?",
-      answer: "Helaas kan ik honden met vlooien niet behandelen in mijn salon. Dit is ter bescherming van andere hondjes en om besmetting te voorkomen. Behandel eerst de vlooien bij je dierenarts, en maak daarna een nieuwe afspraak. Ik begrijp dat dit vervelend is, maar het is belangrijk voor de gezondheid van alle hondjes."
+      question: "Waarom kan de prijs verschillen per ras of kruising?",
+      answer: "Onderhoud van de vacht; niet alle vachten zijn even goed onderhouden. Goed onderhouden vachten kost minder tijd in de trimsalon dan vachten die minder goed zijn onderhouden. Gedrag; De ene hond is het gewend om op tafel te staan en staat goed stil, een andere hond is erg bewegelijk, een volgende hond wil alleen maar liggen en weer andere hond vindt het allemaal wat spannend. Verschil binnen een ras; Bij hetzelfde ras kunnen ook veel verschillende vachttypes zitten. Denk aan veel/weinig onderwol, krullen, ruwhaar etc. Castratenvacht; de vacht van een hond die gecastreerd is veranderd vaak, waardoor dit veel meerwerk kan zijn. Honden met vlooien; Honden met vlooien moeten met een speciale shampoo gewassen worden. Ook moeten we nadien de trimsalon volledig schoonmaken en ontsmetten om een vlooienplaag te voorkomen"
     },
     {
       question: "Hoe kan ik betalen?",
-      answer: "Je kunt bij mij betalen met contant geld, pinnen of via Tikkie. Betaling vindt plaats na de behandeling. Ik verstuur ook graag een Tikkie als dat makkelijker voor je is. Fooi is natuurlijk welkom maar nooit verplicht - een tevreden hondje en eigenaar is de beste beloning!"
+      answer: "Contant of via een tikkie bij het ophalen van jouw hond."
     },
     {
-      question: "Hoe lang duurt een behandeling?",
-      answer: "Voor kleine honden rekenen we 1 tot 1,5 uur, voor middelgrote honden 1,5 tot 2 uur. De eerste keer kan wat langer duren omdat ik tijd neem om jouw hondje te leren kennen. Ik werk nooit met haast - elk hondje krijgt de tijd die nodig is voor een ontspannen behandeling."
-    },
-    {
-      question: "Mijn hond is angstig bij de trimmer, wat nu?",
-      answer: "Geen probleem! Ik heb veel ervaring met angstige hondjes. We beginnen rustig, laten jouw hond eerst wennen aan de salon en aan mij. Soms verdelen we de behandeling over meerdere korte sessies. Met geduld en een rustige aanpak komen we er altijd uit. Het welzijn van jouw hondje staat voorop."
-    },
-    {
-      question: "Kan ik mijn Pomeranian ook bij u laten trimmen?",
-      answer: "Zeker! Pomeranians zijn mijn specialiteit. Ik ben gespecialiseerd in de unieke vacht van Pomeranians en weet precis hoe ik hun prachtige vacht het beste kan behandelen. Of je nu gaat voor de klassieke teddy bear look of een andere stijl, ik zorg ervoor dat jouw Pomeranian er perfect uitziet."
+      question: "Hoe lang duurt een trimbehandeling?",
+      answer: "De duur van een trimbehandeling kunnen we vooraf niet exact bepalen. Dit hangt af van verschillende factoren, zoals de vachtconditie, het ras en het type behandeling. Wij nemen altijd de tijd om jouw hond op een rustige en comfortabele manier te verzorgen. Geen zorgen! Zodra jouw hond klaar is, sturen we je een berichtje. Zo weet je precies wanneer je hem kunt ophalen."
     },
     {
       question: "Hoe vaak moet mijn hond getrimd worden?",
-      answer: "Dit hangt af van het ras en het vachttype. Voor de meeste kleine rassen adviseer ik elke 6-8 weken. Pomeranians kunnen om de 8-10 weken, tenzij je de vacht korter houdt. Ik geef altijd persoonlijk advies op basis van jouw hond en jullie wensen."
+      answer: "Dit hangt af van het ras en het vachttype. Voor de meeste kleine rassen adviseer ik elke 6-8 weken. Ik geef altijd persoonlijk advies op basis van jouw hond en jullie wensen."
     }
   ];
 
