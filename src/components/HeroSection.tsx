@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Calendar } from "lucide-react";
 import heroImage from "@/assets/hero-pomeranian.jpg";
+import pomeranianCoin from "@/assets/pomeranian-coin.jpg";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -78,8 +79,12 @@ const HeroSection = () => {
             
             <div className="absolute -bottom-6 -left-6 bg-warm-white p-6 rounded-lg shadow-luxury border border-border">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-gradient-luxury rounded-full flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold">D</span>
+                <div className="w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-primary/20">
+                  <img 
+                    src={pomeranianCoin} 
+                    alt="Daffy's Trimsalon munt met Pomeranian"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <p className="font-luxury font-semibold text-foreground">Daffy's Trimsalon</p>
