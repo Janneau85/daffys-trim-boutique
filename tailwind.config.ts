@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +62,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Luxury color palette
+				gold: 'hsl(var(--gold))',
+				cream: 'hsl(var(--cream))',
+				sand: 'hsl(var(--sand))',
+				taupe: 'hsl(var(--taupe))',
+				'warm-white': 'hsl(var(--warm-white))'
+			},
+			backgroundImage: {
+				'gradient-luxury': 'var(--gradient-luxury)',
+				'gradient-cream': 'var(--gradient-cream)',
+				'gradient-subtle': 'var(--gradient-subtle)'
+			},
+			boxShadow: {
+				'luxury': 'var(--shadow-luxury)',
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)'
+			},
+			fontFamily: {
+				'luxury': ['Playfair Display', 'serif'],
+				'elegant': ['Inter', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
