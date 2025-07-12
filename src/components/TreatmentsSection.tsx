@@ -71,12 +71,6 @@ const TreatmentsSection = () => {
                     Bij aanwezigheid van vlooien rekenen we een extra schoonmaaktoeslag van €25 om de salon vlo-vrij te houden voor alle dieren.
                   </p>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2">👥 Eigenaren</h4>
-                  <p className="text-muted-foreground text-sm">
-                    Om de veiligheid en het welzijn van zowel uw huisdier als ons team te waarborgen, vragen wij eigenaren vriendelijk om tijdens de behandeling niet aanwezig te zijn.
-                  </p>
-                </div>
               </div>
             </div>
             
