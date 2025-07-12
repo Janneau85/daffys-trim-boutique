@@ -66,20 +66,6 @@ const HeroSection = () => {
                 📍 Spechtstraat 9, 6135 EJ Sittard
               </div>
 
-              <div className="flex items-center justify-center space-x-6 pt-4">
-                <div className="text-center">
-                  <p className="text-2xl font-bold text-black">500+</p>
-                  <p className="text-sm text-black">Blije hondjes</p>
-                </div>
-                <div className="text-center">
-                  <p className="text-2xl font-bold text-black">100%</p>
-                  <p className="text-sm text-black">Liefde & zorg</p>
-                </div>
-                <div className="text-center">
-                  <p className="text-2xl font-bold text-black">5★</p>
-                  <p className="text-sm text-black">Klantbeoordeling</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
