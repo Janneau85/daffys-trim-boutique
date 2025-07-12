@@ -44,7 +44,7 @@ const InstagramSection = () => {
           <div className="flex items-center justify-center space-x-3 mb-4">
             <Instagram className="w-8 h-8 text-primary" />
             <h2 className="text-4xl font-luxury font-bold text-foreground">
-              @daffystrimsalon
+              @daffys_trimsalon
             </h2>
           </div>
           <p className="text-lg text-muted-foreground font-elegant max-w-2xl mx-auto">
@@ -82,7 +82,7 @@ const InstagramSection = () => {
           <Button 
             variant="luxury" 
             size="lg"
-            onClick={() => window.open('https://instagram.com/daffystrimsalon', '_blank')}
+            onClick={() => window.open('https://www.instagram.com/daffys_trimsalon/', '_blank')}
             className="group"
           >
             <Instagram className="w-5 h-5 mr-2" />

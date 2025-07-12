@@ -17,7 +17,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center space-x-4">
               <a 
-                href="https://instagram.com/daffystrimsalon" 
+                href="https://www.instagram.com/daffys_trimsalon/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-warm-white/60 hover:text-primary-glow transition-colors"
