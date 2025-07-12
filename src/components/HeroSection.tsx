@@ -27,9 +27,8 @@ const HeroSection = () => {
               </div>
 
               <p className="text-lg text-black font-elegant leading-relaxed max-w-2xl mx-auto">
-                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een specialisatie 
-                in Pomeranians. Vanuit mijn salon in Sittard verwelkom ik elke hond alsof 
-                het mijn eigen huisdier is.
+                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster. Vanuit mijn salon in 
+                Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
 
               <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
