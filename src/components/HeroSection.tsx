@@ -22,7 +22,7 @@ const HeroSection = () => {
                   <img 
                     src="/lovable-uploads/4e89a900-69dd-4dc8-a743-6140ac2d1b81.png" 
                     alt="Daffy's Trimsalon Logo" 
-                    className="w-40 h-40 object-contain"
+                    className="w-56 h-56 object-contain"
                   />
                 </div>
                 <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-foreground leading-tight">
