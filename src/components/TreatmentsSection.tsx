@@ -62,6 +62,12 @@ const TreatmentsSection = () => {
                     Bij ons staat het welzijn van uw hond voorop: we nemen de tijd voor elke behandeling en zorgen ervoor dat uw hond zich op zijn gemak voelt in een rustige en ontspannen omgeving.
                   </p>
                 </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">🐕 Alle rassen welkom</h4>
+                  <p className="text-muted-foreground text-sm">
+                    De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
+                  </p>
+                </div>
               </div>
               <div className="space-y-4">
                 <div>
@@ -72,13 +78,7 @@ const TreatmentsSection = () => {
                   </p>
                 </div>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2">🐕 Alle rassen welkom</h4>
-                  <p className="text-muted-foreground text-sm">
-                    De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
-                  </p>
-                </div>
-            </div>
+              </div>
             
           </div>
         </div>
