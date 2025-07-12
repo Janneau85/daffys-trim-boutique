@@ -23,7 +23,7 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 bg-warm-white/90 backdrop-blur-sm min-h-screen flex items-center">
+      <div className="relative z-10 bg-warm-white/50 backdrop-blur-sm min-h-screen flex items-center">
         <div className="container mx-auto px-4 py-20 pt-32">
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">
