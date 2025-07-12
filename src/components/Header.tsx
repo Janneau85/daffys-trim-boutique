@@ -90,6 +90,16 @@ const Header = () => {
             >
               Contact
             </button>
+            <button 
+              onClick={() => window.open('/terms-of-service', '_self')}
+              className={`transition-colors duration-300 font-elegant ${
+                isScrolled 
+                  ? 'text-primary-foreground hover:text-primary-foreground/80' 
+                  : 'text-foreground hover:text-primary'
+              }`}
+            >
+              Voorwaarden
+            </button>
           </nav>
 
           <div className="flex items-center space-x-3">
