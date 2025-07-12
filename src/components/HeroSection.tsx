@@ -27,16 +27,11 @@ const HeroSection = () => {
               </p>
             </div>
 
-            <div className="space-y-4">
-              <h2 className="text-2xl font-luxury font-bold text-foreground">
-                Kennismaken met Daphne
-              </h2>
-              <p className="text-lg text-muted-foreground font-elegant leading-relaxed">
-                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
-                voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
-                Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
-              </p>
-            </div>
+            <p className="text-lg text-muted-foreground font-elegant leading-relaxed">
+              Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
+              voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
+              Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
+            </p>
 
             <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
               <div className="space-y-2 text-muted-foreground font-elegant">
