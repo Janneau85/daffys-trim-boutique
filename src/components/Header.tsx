@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MessageCircle } from "lucide-react";
+import { Calendar, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -107,7 +107,7 @@ const Header = () => {
               size="sm"
               onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
             >
-              <Phone className="w-4 h-4" />
+              <Calendar className="w-4 h-4" />
               Afspraak
             </Button>
           </div>
