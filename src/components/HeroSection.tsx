@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Calendar } from "lucide-react";
 import heroImage from "@/assets/realistic-pomeranian.jpg";
+import logo from "@/assets/daffy-logo.png";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -18,6 +19,13 @@ const HeroSection = () => {
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">
               <div className="space-y-4">
+                <div className="flex justify-center mb-6">
+                  <img 
+                    src={logo} 
+                    alt="Daffy's Trimsalon Logo" 
+                    className="w-24 h-24 object-contain"
+                  />
+                </div>
                 <h1 className="text-5xl lg:text-6xl font-luxury font-bold text-foreground leading-tight">
                   Welkom bij
                   <span className="block text-primary font-luxury">
