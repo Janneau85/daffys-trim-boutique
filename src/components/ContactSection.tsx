@@ -16,138 +16,90 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Contact Info */}
-          <div className="space-y-6">
-            <Card className="shadow-soft border border-border">
-              <CardHeader>
-                <CardTitle className="font-luxury text-xl flex items-center">
-                  <MapPin className="w-5 h-5 mr-2 text-primary" />
-                  Locatie
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-2">
-                <p className="font-semibold text-foreground">Daffy's Trimsalon</p>
-                <p className="text-muted-foreground">Spechtstraat 9</p>
-                <p className="text-muted-foreground">6135 EJ Sittard</p>
-                <Button 
-                  variant="outline" 
-                  size="sm" 
-                  className="mt-4"
-                  onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
-                >
-                  Open in Google Maps
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="shadow-soft border border-border">
-              <CardHeader>
-                <CardTitle className="font-luxury text-xl flex items-center">
-                  <Clock className="w-5 h-5 mr-2 text-primary" />
-                  Wachttijd
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
-                  <p className="font-semibold text-primary mb-2">⚠️ Belangrijk</p>
-                  <p className="text-sm text-foreground mb-2">
-                    Uitsluitend op afspraak
-                  </p>
-                  <p className="text-sm text-muted-foreground mb-1">
-                    Gemiddelde wachttijd: <span className="font-semibold text-primary">4 weken</span>
-                  </p>
-                  <p className="text-xs text-muted-foreground">
-                    Zomer en feestdagen kan het langer zijn
-                  </p>
+        <div className="max-w-4xl mx-auto">
+          {/* Main Contact Card */}
+          <Card className="shadow-soft border border-border mb-8">
+            <CardHeader className="text-center">
+              <CardTitle className="font-luxury text-2xl">
+                📍 Bezoek Onze Salon
+              </CardTitle>
+              <p className="text-black">
+                Spechtstraat 9, 6135 EJ Sittard
+              </p>
+            </CardHeader>
+            <CardContent>
+              <div className="grid md:grid-cols-3 gap-6">
+                {/* Contact Methods */}
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-black mb-3">💬 Contact</h4>
+                  <div className="space-y-3">
+                    <div className="flex items-center text-black">
+                      <Phone className="w-4 h-4 mr-2" />
+                      <span>06 40 33 87 98</span>
+                    </div>
+                    <Button 
+                      variant="whatsapp" 
+                      className="w-full"
+                      onClick={() => window.open('https://wa.me/31640338798', '_blank')}
+                    >
+                      <MessageCircle className="w-4 h-4 mr-2" />
+                      WhatsApp
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
+                    >
+                      <MapPin className="w-4 h-4 mr-2" />
+                      Google Maps
+                    </Button>
+                  </div>
                 </div>
-              </CardContent>
-            </Card>
 
-            <Card className="shadow-soft border border-border">
-              <CardHeader>
-                <CardTitle className="font-luxury text-xl">
-                  Direct Contact
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center text-muted-foreground">
-                  <Phone className="w-4 h-4 mr-2" />
-                  <span>06 40 33 87 98</span>
+                {/* Appointment Info */}
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-black mb-3">⏰ Afspraken</h4>
+                  <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
+                    <p className="font-semibold text-primary mb-2">⚠️ Belangrijk</p>
+                    <p className="text-sm text-black mb-2">
+                      Uitsluitend op afspraak
+                    </p>
+                    <p className="text-sm text-black mb-1">
+                      Gemiddelde wachttijd: <span className="font-semibold text-primary">4 weken</span>
+                    </p>
+                    <p className="text-xs text-black">
+                      Zomer en feestdagen kan het langer zijn
+                    </p>
+                  </div>
                 </div>
-                <Button 
-                  variant="whatsapp" 
-                  className="w-full"
-                  onClick={() => window.open('https://wa.me/31640338798', '_blank')}
-                >
-                  <MessageCircle className="w-4 h-4 mr-2" />
-                  WhatsApp: 06 40 33 87 98
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
 
-          {/* Online Booking */}
-          <div>
-            <Card className="shadow-soft border border-border h-fit">
-              <CardHeader>
-                <CardTitle className="font-luxury text-2xl">
-                  Online Afspraak Maken
-                </CardTitle>
-                <p className="text-muted-foreground">
-                  Maak direct online een afspraak via ons boekingssysteem.
-                </p>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20 text-center">
-                  <ExternalLink className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h3 className="font-luxury text-xl text-foreground mb-4">
-                    Boek direct online
-                  </h3>
-                  <p className="text-muted-foreground mb-6">
-                    Bekijk beschikbare tijden en maak direct een afspraak via ons online boekingssysteem.
-                  </p>
-                  <Button 
-                    variant="luxury" 
-                    size="lg" 
-                    className="w-full"
-                    onClick={() => window.open('https://www.daffystrimsalon.nl/trimbehandelingen-1', '_blank')}
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Online Afspraak Maken
-                  </Button>
+                {/* Online Booking */}
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-black mb-3">🌐 Online Boeken</h4>
+                  <div className="text-center">
+                    <ExternalLink className="w-8 h-8 text-primary mx-auto mb-3" />
+                    <p className="text-sm text-black mb-4">
+                      Bekijk beschikbare tijden en maak direct een afspraak.
+                    </p>
+                    <Button 
+                      variant="luxury" 
+                      size="lg" 
+                      className="w-full"
+                      onClick={() => window.open('https://www.daffystrimsalon.nl/trimbehandelingen-1', '_blank')}
+                    >
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Online Afspraak
+                    </Button>
+                  </div>
                 </div>
-                
-                <div className="text-center">
-                  <p className="text-sm text-muted-foreground">
-                    Of neem telefonisch contact op voor vragen of speciale verzoeken.
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-
-        {/* Map placeholder */}
-        <div className="mt-12">
-          <Card className="shadow-soft border border-border overflow-hidden">
-            <div className="h-64 bg-gradient-subtle flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="font-luxury text-xl text-foreground mb-2">
-                  Vind ons in Sittard
-                </h3>
-                <p className="text-muted-foreground mb-4">
-                  Spechtstraat 9, 6135 EJ Sittard
-                </p>
-                <Button 
-                  variant="outline"
-                  onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
-                >
-                  Open Google Maps
-                </Button>
               </div>
-            </div>
+              
+              <div className="mt-6 pt-6 border-t border-border text-center">
+                <p className="text-sm text-black">
+                  Voor vragen of speciale verzoeken neem telefonisch contact op.
+                </p>
+              </div>
+            </CardContent>
           </Card>
         </div>
       </div>
