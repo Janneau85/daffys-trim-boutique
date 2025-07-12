@@ -35,7 +35,7 @@ const HeroSection = () => {
                 {/* Bullet points - midden */}
                 <div className="bg-card p-6 rounded-lg shadow-soft border border-border max-w-md relative">
                   {/* Logo box - links overlopend */}
-                  <div className="absolute -left-8 -top-4 bg-card p-3 rounded-lg shadow-soft border border-border w-16 h-16 flex items-center justify-center">
+                  <div className="absolute -left-10 -top-6 bg-white p-2 rounded-lg shadow-lg border border-border w-20 h-20 flex items-center justify-center">
                     <img 
                       src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
                       alt="Daffy's Trimsalon Logo"
