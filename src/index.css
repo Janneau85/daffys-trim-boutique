@@ -8,47 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Luxe cream & gold palette for Daffy's Trimsalon */
-    --background: 48 20% 98%;
-    --foreground: 30 8% 25%;
+    /* Dark luxury palette for Daffy's Trimsalon */
+    --background: 0 0% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 45 25% 96%;
-    --card-foreground: 30 8% 25%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 45 25% 96%;
-    --popover-foreground: 30 8% 25%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 95%;
 
     --primary: 43 74% 49%;
-    --primary-foreground: 45 25% 96%;
+    --primary-foreground: 0 0% 8%;
     --primary-glow: 45 85% 65%;
 
-    --secondary: 40 15% 88%;
-    --secondary-foreground: 30 8% 25%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 95%;
 
-    --muted: 42 12% 92%;
-    --muted-foreground: 30 6% 55%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 38 20% 85%;
-    --accent-foreground: 30 8% 25%;
+    --accent: 0 0% 20%;
+    --accent-foreground: 0 0% 95%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 45 25% 96%;
+    --destructive-foreground: 0 0% 95%;
 
-    --border: 40 10% 89%;
-    --input: 40 10% 89%;
+    --border: 0 0% 25%;
+    --input: 0 0% 15%;
     --ring: 43 74% 49%;
 
-    /* Luxury design tokens */
+    /* Dark luxury design tokens */
     --gold: 43 74% 49%;
-    --cream: 48 20% 98%;
-    --sand: 40 15% 88%;
-    --taupe: 30 8% 25%;
-    --warm-white: 45 25% 96%;
+    --cream: 0 0% 8%;
+    --sand: 0 0% 15%;
+    --taupe: 0 0% 95%;
+    --warm-white: 0 0% 12%;
     
-    /* Gradients */
+    /* Dark gradients */
     --gradient-luxury: linear-gradient(135deg, hsl(var(--gold)), hsl(var(--primary-glow)));
     --gradient-cream: linear-gradient(180deg, hsl(var(--cream)), hsl(var(--warm-white)));
     --gradient-subtle: linear-gradient(135deg, hsl(var(--muted)), hsl(var(--accent)));
+    --hexagon-pattern: url('/src/assets/hexagon-pattern.png');
     
     /* Shadows */
     --shadow-luxury: 0 20px 40px -10px hsl(var(--gold) / 0.15);
@@ -120,5 +121,25 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    background-image: var(--hexagon-pattern);
+    background-size: 400px 400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    opacity: 1;
+  }
+  
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--hexagon-pattern);
+    background-size: 400px 400px;
+    background-repeat: repeat;
+    opacity: 0.03;
+    pointer-events: none;
+    z-index: -1;
   }
 }
