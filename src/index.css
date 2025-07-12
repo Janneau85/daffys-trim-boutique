@@ -9,8 +9,8 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Black and white theme for Daffy's Trimsalon */
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
+    --background: 0 0% 95%;
+    --foreground: 0 0% 10%;
 
     --card: 0 0% 5%;
     --card-foreground: 0 0% 100%;
