@@ -34,15 +34,6 @@ const HeroSection = () => {
               <div className="relative flex justify-center">
                 {/* Bullet points - midden */}
                 <div className="bg-card p-6 rounded-lg shadow-soft border border-border max-w-md relative">
-                  {/* Logo box - links overlopend */}
-                  <div className="absolute -left-12 -top-8 bg-black p-3 rounded-lg shadow-lg border border-border w-24 h-24 flex items-center justify-center">
-                    <img 
-                      src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
-                      alt="Daffy's Trimsalon Logo"
-                      className="w-full h-full object-contain"
-                    />
-                  </div>
-                  
                   {/* 5+ jaar ervaring box - rechts overlopend */}
                   <div className="absolute -right-6 -top-4 bg-primary text-primary-foreground px-3 py-2 rounded-lg text-sm font-semibold shadow-soft">
                     ✨ 5+ jaar ervaring
