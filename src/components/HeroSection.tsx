@@ -32,9 +32,13 @@ const HeroSection = () => {
               </p>
 
               <div className="relative flex items-start gap-4 justify-center">
-                {/* 5+ jaar ervaring box - links */}
-                <div className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold shadow-soft">
-                  ✨ 5+ jaar ervaring
+                {/* Logo box - links */}
+                <div className="bg-card p-4 rounded-lg shadow-soft border border-border w-20 h-20 flex items-center justify-center">
+                  <img 
+                    src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
+                    alt="Daffy's Trimsalon Logo"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 
                 {/* Bullet points - midden */}
@@ -47,13 +51,9 @@ const HeroSection = () => {
                   </div>
                 </div>
                 
-                {/* Logo box - rechts */}
-                <div className="bg-card p-4 rounded-lg shadow-soft border border-border w-20 h-20 flex items-center justify-center">
-                  <img 
-                    src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
-                    alt="Daffy's Trimsalon Logo"
-                    className="w-full h-full object-contain"
-                  />
+                {/* 5+ jaar ervaring box - rechts */}
+                <div className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold shadow-soft">
+                  ✨ 5+ jaar ervaring
                 </div>
               </div>
 
