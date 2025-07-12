@@ -11,13 +11,12 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen relative">
-      {/* Fixed Background Image */}
+    <section id="home" className="min-h-screen relative overflow-hidden">
+      {/* Background Image */}
       <div 
-        className="fixed inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
+        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
         style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundAttachment: 'fixed'
+          backgroundImage: `url(${heroImage})`
         }}
       >
         <div className="absolute inset-0 bg-black/50"></div>
