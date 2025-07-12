@@ -27,9 +27,9 @@ const HeroSection = () => {
               </div>
 
               <p className="text-lg text-black font-elegant leading-relaxed max-w-2xl mx-auto">
-                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
-                voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
-                Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
+                Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een specialisatie 
+                in Pomeranians. Vanuit mijn salon in Sittard verwelkom ik elke hond alsof 
+                het mijn eigen huisdier is.
               </p>
 
               <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
@@ -41,37 +41,6 @@ const HeroSection = () => {
                 </div>
               </div>
 
-              <div className="bg-card p-6 rounded-lg border border-border shadow-soft">
-                <h3 className="font-luxury text-xl text-black mb-3">
-                  Mijn specialisaties
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-black">Pomeranian Expert</h4>
-                    <p className="text-sm text-black">
-                      Gespecialiseerd in de unieke vacht van Pomeranians
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-black">Kleine Rassen</h4>
-                    <p className="text-sm text-black">
-                      Extra zorgvuldig met onze kleinste vriendjes
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-black">Puppy's</h4>
-                    <p className="text-sm text-black">
-                      Eerste trimbeurt? Ik maak er een positieve ervaring van
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="font-semibold text-black">Gedragsbegeleiding</h4>
-                    <p className="text-sm text-black">
-                      Rustige aanpak voor angstige hondjes
-                    </p>
-                  </div>
-                </div>
-              </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button 
