@@ -29,9 +29,29 @@ const ContactSection = () => {
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-3 gap-6">
-                {/* Contact Methods */}
+                {/* Location & Maps */}
                 <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">💬 Contact</h4>
+                  <h4 className="font-semibold text-black mb-3">📍 Locatie</h4>
+                  <div className="space-y-3">
+                    <div className="text-black">
+                      <p className="font-semibold">Daffy's Trimsalon</p>
+                      <p>Spechtstraat 9</p>
+                      <p>6135 EJ Sittard</p>
+                    </div>
+                    <Button 
+                      variant="outline" 
+                      className="w-full"
+                      onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
+                    >
+                      <MapPin className="w-4 h-4 mr-2" />
+                      Google Maps
+                    </Button>
+                  </div>
+                </div>
+
+                {/* Contact & Appointment Info */}
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-black mb-3">💬 Contact & Afspraken</h4>
                   <div className="space-y-3">
                     <div className="flex items-center text-black">
                       <Phone className="w-4 h-4 mr-2" />
@@ -45,31 +65,15 @@ const ContactSection = () => {
                       <MessageCircle className="w-4 h-4 mr-2" />
                       WhatsApp
                     </Button>
-                    <Button 
-                      variant="outline" 
-                      className="w-full"
-                      onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
-                    >
-                      <MapPin className="w-4 h-4 mr-2" />
-                      Google Maps
-                    </Button>
-                  </div>
-                </div>
-
-                {/* Appointment Info */}
-                <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">⏰ Afspraken</h4>
-                  <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
-                    <p className="font-semibold text-primary mb-2">⚠️ Belangrijk</p>
-                    <p className="text-sm text-black mb-2">
-                      Uitsluitend op afspraak
-                    </p>
-                    <p className="text-sm text-black mb-1">
-                      Gemiddelde wachttijd: <span className="font-semibold text-primary">4 weken</span>
-                    </p>
-                    <p className="text-xs text-black">
-                      Zomer en feestdagen kan het langer zijn
-                    </p>
+                    <div className="bg-accent/30 p-3 rounded-lg border border-primary/20">
+                      <p className="font-semibold text-primary text-sm mb-1">⚠️ Belangrijk</p>
+                      <p className="text-xs text-black mb-1">
+                        Uitsluitend op afspraak
+                      </p>
+                      <p className="text-xs text-black">
+                        Wachttijd: <span className="font-semibold text-primary">4 weken</span>
+                      </p>
+                    </div>
                   </div>
                 </div>
 
