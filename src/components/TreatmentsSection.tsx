@@ -78,7 +78,23 @@ const TreatmentsSection = () => {
                   </p>
                 </div>
                 </div>
-              </div>
+            </div>
+            
+            <div className="mt-6 pt-6 border-t border-border text-center">
+              <h4 className="font-semibold text-black mb-4">📋 Algemene Voorwaarden</h4>
+              <p className="text-sm text-black mb-4">
+                Voor alle voorwaarden en belangrijke informatie over onze dienstverlening.
+              </p>
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open('#', '_blank')}
+                className="w-full max-w-md"
+              >
+                <ExternalLink className="w-4 h-4 mr-2" />
+                Bekijk Algemene Voorwaarden
+              </Button>
+            </div>
             
           </div>
         </div>
