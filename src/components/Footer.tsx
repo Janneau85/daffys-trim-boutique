@@ -119,7 +119,7 @@ const Footer = () => {
         {/* Certificates */}
         <div className="mt-8 text-center">
           <div className="inline-flex items-center space-x-4 bg-warm-white/10 px-6 py-3 rounded-lg">
-            <span className="text-warm-white/60 text-sm">Gecertificeerd trimster</span>
+            <span className="text-warm-white/60 text-sm">Gediplomeerd trimster</span>
             <span className="text-warm-white/40">•</span>
             <span className="text-warm-white/60 text-sm">5+ jaar ervaring</span>
             <span className="text-warm-white/40">•</span>
