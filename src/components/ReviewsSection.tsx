@@ -42,7 +42,7 @@ const ReviewsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-cream">
+    <section className="py-20 bg-warm-white/50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-luxury font-bold text-foreground mb-4">

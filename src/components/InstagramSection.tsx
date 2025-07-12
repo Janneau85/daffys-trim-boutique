@@ -4,7 +4,7 @@ import { Instagram, ExternalLink } from "lucide-react";
 
 const InstagramSection = () => {
   return (
-    <section className="py-20 bg-gradient-cream">
+    <section className="py-20 bg-warm-white/50 backdrop-blur-sm">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-4">
