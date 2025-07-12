@@ -61,7 +61,7 @@ const FAQSection = () => {
             Nog andere vragen?
           </h3>
           <p className="text-muted-foreground mb-6 font-elegant">
-            Ik help je graag verder. Stuur een berichtje via WhatsApp of vul het contactformulier in.
+            Ik help je graag verder. Stuur een berichtje via WhatsApp of plan direct online een afspraak in.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button 
@@ -71,13 +71,10 @@ const FAQSection = () => {
               WhatsApp Vraag
             </button>
             <button 
-              onClick={() => {
-                const element = document.getElementById('contact');
-                if (element) element.scrollIntoView({ behavior: "smooth" });
-              }}
+              onClick={() => window.open('https://calendly.com/your-booking-link', '_blank')}
               className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-elegant"
             >
-              Contactformulier
+              Online Afspraak Inplannen
             </button>
           </div>
         </div>
