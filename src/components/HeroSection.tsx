@@ -24,15 +24,11 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground font-elegant leading-relaxed">
-                Exclusieve hondentrimsalon in het hart van Sittard, waar elk hondje 
-                met liefde en vakmanschap wordt verzorgd.
+                hondentrimsalon in Sittard, waar elk hondje met liefde wordt verzorgd.
               </p>
             </div>
 
             <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
-              <h3 className="font-luxury text-lg text-primary mb-3">
-                Onze belofte aan jou
-              </h3>
               <div className="space-y-2 text-muted-foreground font-elegant">
                 <p>✨ Persoonlijke aandacht voor elk dier</p>
                 <p>🏆 Vakkundige verzorging door gecertificeerd trimster</p>

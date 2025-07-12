@@ -71,7 +71,7 @@ const FAQSection = () => {
               WhatsApp Vraag
             </button>
             <button 
-              onClick={() => window.open('https://calendly.com/your-booking-link', '_blank')}
+              onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
               className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-elegant"
             >
               Online Afspraak Inplannen
