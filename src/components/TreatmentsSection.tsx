@@ -88,7 +88,7 @@ const TreatmentsSection = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('/terms-of-service', '_self')}
                 className="w-full max-w-md"
               >
                 <ExternalLink className="w-4 h-4 mr-2" />
