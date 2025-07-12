@@ -34,7 +34,7 @@ const HeroSection = () => {
               <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
                 <div className="space-y-2 text-black font-elegant">
                   <p>✨ Persoonlijke aandacht voor elk dier</p>
-                  <p>🏆 Vakkundige verzorging door gecertificeerd trimster</p>
+                  <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
                   <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
                   <p>🌿 Rustige, stressvrije omgeving</p>
                 </div>
