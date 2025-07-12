@@ -29,9 +29,6 @@ const TreatmentsSection = () => {
             </CardHeader>
             <CardContent className="text-center space-y-6">
               <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20">
-                <p className="text-muted-foreground mb-4">
-                  Voor de meest actuele prijzen en het maken van afspraken verwijzen wij u naar ons online boekingssysteem.
-                </p>
                 <Button 
                   variant="luxury" 
                   size="lg"
