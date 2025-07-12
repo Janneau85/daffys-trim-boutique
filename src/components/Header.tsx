@@ -105,7 +105,7 @@ const Header = () => {
             <Button 
               variant="luxury" 
               size="sm"
-              onClick={() => scrollToSection('contact')}
+              onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
             >
               <Phone className="w-4 h-4" />
               Afspraak
