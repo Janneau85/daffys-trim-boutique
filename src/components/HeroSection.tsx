@@ -11,19 +11,9 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen relative overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
-        style={{
-          backgroundImage: `url(${heroImage})`
-        }}
-      >
-        <div className="absolute inset-0 bg-black/50"></div>
-      </div>
-
+    <section id="home" className="min-h-screen relative">
       {/* Content */}
-      <div className="relative z-10 bg-warm-white/50 backdrop-blur-sm min-h-screen flex items-center">
+      <div className="bg-warm-white/50 backdrop-blur-sm min-h-screen flex items-center">
         <div className="container mx-auto px-4 py-20 pt-32">
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8 text-center">

@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import heroImage from "@/assets/realistic-pomeranian.jpg";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import TreatmentsSection from "@/components/TreatmentsSection";
@@ -10,17 +11,30 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      <main>
-        <HeroSection />
-        <TreatmentsSection />
-        <ReviewsSection />
-        <FAQSection />
-        <InstagramSection />
-        <ContactSection />
-      </main>
-      <Footer />
+    <div className="min-h-screen relative">
+      {/* Background Image */}
+      <div 
+        className="fixed inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
+        style={{
+          backgroundImage: `url(${heroImage})`
+        }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      
+      {/* Content */}
+      <div className="relative z-10">
+        <Header />
+        <main>
+          <HeroSection />
+          <TreatmentsSection />
+          <ReviewsSection />
+          <FAQSection />
+          <InstagramSection />
+          <ContactSection />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 };
