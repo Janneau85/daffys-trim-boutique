@@ -10,18 +10,6 @@ const ReviewsSection = () => {
       dogBreed: "Maltezer"
     },
     {
-      name: "Senna Dols",
-      rating: 5,
-      text: "Super lieve meid, mijn hondje komt altijd supermooi van Daffy's trimsalon vandaan… super tevreden!😘",
-      dogBreed: ""
-    },
-    {
-      name: "Bo & Tygie",
-      rating: 5,
-      text: "Super leuk/lief in de omgang met de diertjes en persoonlijk!! Tygie en ik zijn zeer tevreden en raden het iedereen aan tot over 8 weekjes weer 🫶",
-      dogBreed: ""
-    },
-    {
       name: "Emil Kerckhoffs",
       rating: 5,
       text: "Top ervaring, wij laten onze lieftallige 4 voeter om de 3 maanden netjes verzorgen bij Daffy's Trimsalon. Altijd vriendelijk, tijd voor een praatje, geeft goed advies en verstaat haar vak heel goed. Wij raden Daffy's Trimsalon zeer zeker aan!!!",
@@ -31,12 +19,6 @@ const ReviewsSection = () => {
       name: "Belinda Vluggen & Ravi",
       rating: 5,
       text: "Super tevreden, onze Ravi is altijd mooi in model getrimt, neemt alle tijd en rust voor een goede trim beurt.",
-      dogBreed: ""
-    },
-    {
-      name: "Tichaporn Sooksarn",
-      rating: 5,
-      text: "Goede Trimsalon, Goede service.",
       dogBreed: ""
     }
   ];
@@ -60,7 +42,7 @@ const ReviewsSection = () => {
                 <div className="flex items-center mb-4">
                   <div className="flex items-center space-x-1">
                     {[...Array(review.rating)].map((_, i) => (
-                      <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                      <Star key={i} className="w-4 h-4 fill-yellow-500 text-yellow-500" />
                     ))}
                   </div>
                   <span className="ml-2 text-sm text-muted-foreground">
@@ -93,13 +75,13 @@ const ReviewsSection = () => {
           <div className="flex items-center justify-center space-x-4 mb-4">
             <div className="flex items-center space-x-1">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-6 h-6 fill-primary text-primary" />
+                <Star key={i} className="w-6 h-6 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
             <span className="text-2xl font-bold text-primary">4.9/5</span>
           </div>
           <p className="text-black font-elegant">
-            Gemiddelde beoordeling van 6+ Google Reviews
+            Gemiddelde beoordeling van 3 Google Reviews
           </p>
           <p className="text-sm text-black mt-2">
             Gebaseerd op Google Reviews
