@@ -20,7 +20,7 @@ const HeroSection = () => {
               <div className="space-y-4">
                 <div className="flex justify-center mb-8">
                   <img 
-                    src="/lovable-uploads/4e89a900-69dd-4dc8-a743-6140ac2d1b81.png" 
+                    src="/lovable-uploads/eec0d6a1-ba93-4beb-b705-1a38c3190de7.png" 
                     alt="Daffy's Trimsalon Logo" 
                     className="w-56 h-56 object-contain"
                   />
