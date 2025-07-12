@@ -20,7 +20,7 @@ const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a 
-                href="tel:+31461234567"
+                href="tel:+31640338798"
                 className="text-warm-white/60 hover:text-primary-glow transition-colors"
               >
                 <Phone className="w-5 h-5" />
@@ -89,7 +89,7 @@ const Footer = () => {
             <div className="space-y-2 text-warm-white/80 text-sm">
               <p>Spechtstraat 9</p>
               <p>6135 EJ Sittard</p>
-              <p>+31 46 123 4567</p>
+              <p>06 40 33 87 98</p>
               
             </div>
           </div>
