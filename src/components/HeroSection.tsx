@@ -31,15 +31,29 @@ const HeroSection = () => {
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
               </p>
 
-              <div className="bg-card p-6 rounded-lg shadow-soft border border-border relative">
-                <div className="absolute -top-3 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
+              <div className="relative flex items-start gap-4 justify-center">
+                {/* 5+ jaar ervaring box - links */}
+                <div className="bg-primary text-primary-foreground px-4 py-2 rounded-lg text-sm font-semibold shadow-soft">
                   ✨ 5+ jaar ervaring
                 </div>
-                <div className="space-y-2 text-black font-elegant">
-                  <p>✨ Persoonlijke aandacht voor elk dier</p>
-                  <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
-                  <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
-                  <p>🌿 Rustige, stressvrije omgeving</p>
+                
+                {/* Bullet points - midden */}
+                <div className="bg-card p-6 rounded-lg shadow-soft border border-border flex-1 max-w-md">
+                  <div className="space-y-2 text-black font-elegant">
+                    <p>✨ Persoonlijke aandacht voor elk dier</p>
+                    <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
+                    <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
+                    <p>🌿 Rustige, stressvrije omgeving</p>
+                  </div>
+                </div>
+                
+                {/* Logo box - rechts */}
+                <div className="bg-card p-4 rounded-lg shadow-soft border border-border w-20 h-20 flex items-center justify-center">
+                  <img 
+                    src="/lovable-uploads/fb3e5604-4f9f-4947-9f43-db9e339ab36d.png" 
+                    alt="Daffy's Trimsalon Logo"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
               </div>
 
