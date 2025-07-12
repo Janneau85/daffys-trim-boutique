@@ -71,14 +71,15 @@ const TreatmentsSection = () => {
                     Bij aanwezigheid van vlooien rekenen we een extra schoonmaaktoeslag van €25 om de salon vlo-vrij te houden voor alle dieren.
                   </p>
                 </div>
-              </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">🐕 Alle rassen welkom</h4>
+                  <p className="text-muted-foreground text-sm">
+                    De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
+                  </p>
+                </div>
             </div>
             
-            <div className="mt-6 pt-6 border-t border-border">
-              <p className="text-xs text-muted-foreground text-center">
-                * De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
-              </p>
-            </div>
           </div>
         </div>
       </div>
