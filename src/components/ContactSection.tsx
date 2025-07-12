@@ -98,12 +98,6 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
-              
-              <div className="mt-6 pt-6 border-t border-border text-center">
-                <p className="text-sm text-black">
-                  Voor vragen of speciale verzoeken neem telefonisch contact op.
-                </p>
-              </div>
             </CardContent>
           </Card>
         </div>
