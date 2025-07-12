@@ -103,7 +103,10 @@ const Footer = () => {
             </div>
             
             <div className="flex items-center space-x-6 text-sm">
-              <button className="text-warm-white/60 hover:text-primary-glow transition-colors">
+              <button 
+                className="text-warm-white/60 hover:text-primary-glow transition-colors"
+                onClick={() => window.open('/terms-of-service', '_self')}
+              >
                 Algemene Voorwaarden
               </button>
               <button className="text-warm-white/60 hover:text-primary-glow transition-colors">
