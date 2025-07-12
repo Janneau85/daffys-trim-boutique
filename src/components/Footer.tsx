@@ -1,4 +1,4 @@
-import { Heart, Instagram, Mail, Phone } from "lucide-react";
+import { Heart, Instagram, Phone } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,11 +10,6 @@ const Footer = () => {
             <h3 className="font-luxury text-2xl font-bold mb-4 text-primary-glow">
               Daffy's Trimsalon
             </h3>
-            <p className="text-warm-white/80 font-elegant leading-relaxed mb-4">
-              Exclusieve hondentrimsalon in Sittard waar elk hondje met liefde 
-              en vakmanschap wordt verzorgd. Gespecialiseerd in Pomeranians 
-              en kleine rassen.
-            </p>
             <div className="flex items-center space-x-4">
               <a 
                 href="https://www.instagram.com/daffys_trimsalon/" 
@@ -23,12 +18,6 @@ const Footer = () => {
                 className="text-warm-white/60 hover:text-primary-glow transition-colors"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a 
-                href="mailto:info@daffystrimsalon.nl"
-                className="text-warm-white/60 hover:text-primary-glow transition-colors"
-              >
-                <Mail className="w-5 h-5" />
               </a>
               <a 
                 href="tel:+31461234567"
@@ -101,7 +90,7 @@ const Footer = () => {
               <p>Spechtstraat 9</p>
               <p>6135 EJ Sittard</p>
               <p>+31 46 123 4567</p>
-              <p>info@daffystrimsalon.nl</p>
+              
             </div>
           </div>
         </div>
