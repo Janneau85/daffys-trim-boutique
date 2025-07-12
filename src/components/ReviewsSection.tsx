@@ -4,40 +4,46 @@ import { Star } from "lucide-react";
 const ReviewsSection = () => {
   const reviews = [
     {
-      name: "Marina & Bella",
+      name: "Anton Janssen & Nala",
       rating: 5,
-      text: "Bella (Pomeranian) gaat altijd blij naar Daffy! Ze komt zo mooi verzorgd thuis en Daffy neemt echt de tijd voor haar. De salon is super schoon en rustig. Aanrader!",
-      dogBreed: "Pomeranian"
+      text: "Ik breng al geruime tijd mijn Maltezer naar Daffy's Trimsalon en dat tot grote tevredenheid. Nala vindt het ook geen probleem om er naar toe te gaan en ziet ze er na de behandeling mooi en verzorgd uit. Ook prettig dat ik twee dagen voor de afspraken een herinnering ontvang. Eventuele aandachtspunten, bijvoorbeeld een bultje onder het oog waarvoor een dierenarts moet worden geraadpleegd, worden gesignaleerd. Kortom, alle aandacht voor de cliënt.",
+      dogBreed: "Maltezer",
+      date: "23 jan 2024"
     },
     {
-      name: "Thomas & Buddy",
+      name: "Senna Dols",
       rating: 5,
-      text: "Buddy was eerst bang bij andere trimmers, maar bij Daffy voelt hij zich helemaal op zijn gemak. Ze heeft zoveel geduld en liefde voor de dieren. Top service!",
-      dogBreed: "Yorkshire Terrier"
+      text: "Super lieve meid, mijn hondje komt altijd supermooi van Daffy's trimsalon vandaan… super tevreden!😘",
+      dogBreed: "",
+      date: "12 apr 2023"
     },
     {
-      name: "Lisa & Coco",
+      name: "Bo & Tygie",
       rating: 5,
-      text: "Coco's eerste trimbeurt was bij Daffy en het was een succes! Ze heeft haar zo voorzichtig en lief behandeld. De prijs is eerlijk en de kwaliteit is uitstekend.",
-      dogBreed: "Maltezer"
+      text: "Super leuk/lief in de omgang met de diertjes en persoonlijk!! Tygie en ik zijn zeer tevreden en raden het iedereen aan tot over 8 weekjes weer 🫶",
+      dogBreed: "",
+      date: "1 mei 2024"
     },
     {
-      name: "Patrick & Max",
+      name: "Emil Kerckhoffs",
       rating: 5,
-      text: "Al jaren een vaste klant. Daffy kent Max inmiddels door en door. Altijd tevreden met het resultaat en de persoonlijke aandacht die ze geeft. Heel professioneel!",
-      dogBreed: "Bichon Frisé"
+      text: "Top ervaring, wij laten onze lieftallige 4 voeter om de 3 maanden netjes verzorgen bij Daffy's Trimsalon. Altijd vriendelijk, tijd voor een praatje, geeft goed advies en verstaat haar vak heel goed. Wij raden Daffy's Trimsalon zeer zeker aan!!!",
+      dogBreed: "",
+      date: "1 mei 2024"
     },
     {
-      name: "Emma & Luna",
+      name: "Belinda Vluggen & Ravi",
       rating: 5,
-      text: "Luna ziet er altijd prachtig uit na haar bezoek aan Daffy. De teddybear styling voor Pomeranians is echt haar specialiteit. Onze vaste trimster!",
-      dogBreed: "Pomeranian"
+      text: "Super tevreden, onze Ravi is altijd mooi in model getrimt, neemt alle tijd en rust voor een goede trim beurt.",
+      dogBreed: "",
+      date: "1 mei 2024"
     },
     {
-      name: "Rob & Milo",
+      name: "Tichaporn Sooksarn",
       rating: 5,
-      text: "Milo heeft een moeilijke vacht, maar Daffy weet precies hoe ze hem moet behandelen. Altijd een perfect resultaat en Milo is er helemaal zen van.",
-      dogBreed: "Poedel mix"
+      text: "Goede Trimsalon, Goede service.",
+      dogBreed: "",
+      date: "31 weken geleden"
     }
   ];
 
@@ -68,18 +74,23 @@ const ReviewsSection = () => {
                   </span>
                 </div>
                 
-                <blockquote className="text-muted-foreground font-elegant leading-relaxed mb-4">
+                <blockquote className="text-black font-elegant leading-relaxed mb-4">
                   "{review.text}"
                 </blockquote>
                 
                 <div className="border-t border-border pt-4">
                   <div className="flex justify-between items-center">
-                    <cite className="font-semibold text-foreground not-italic">
+                    <cite className="font-semibold text-black not-italic">
                       {review.name}
                     </cite>
-                    <span className="text-xs bg-primary/10 text-primary px-2 py-1 rounded-full">
-                      {review.dogBreed}
-                    </span>
+                    <div className="flex flex-col items-end text-xs">
+                      {review.dogBreed && (
+                        <span className="bg-primary/10 text-primary px-2 py-1 rounded-full mb-1">
+                          {review.dogBreed}
+                        </span>
+                      )}
+                      <span className="text-gray-500">{review.date}</span>
+                    </div>
                   </div>
                 </div>
               </CardContent>
@@ -96,11 +107,11 @@ const ReviewsSection = () => {
             </div>
             <span className="text-2xl font-bold text-primary">4.9/5</span>
           </div>
-          <p className="text-muted-foreground font-elegant">
-            Gemiddelde beoordeling van 50+ tevreden klanten
+          <p className="text-black font-elegant">
+            Gemiddelde beoordeling van 6+ Google Reviews
           </p>
-          <p className="text-sm text-muted-foreground mt-2">
-            Gebaseerd op Google Reviews en persoonlijke feedback
+          <p className="text-sm text-black mt-2">
+            Gebaseerd op Google Reviews
           </p>
         </div>
       </div>
