@@ -22,9 +22,6 @@ const HeroSection = () => {
                   Daffy's Trimsalon
                 </span>
               </h1>
-              <p className="text-xl text-muted-foreground font-elegant leading-relaxed">
-                hondentrimsalon in Sittard, waar elk hondje met liefde wordt verzorgd.
-              </p>
             </div>
 
             <p className="text-lg text-muted-foreground font-elegant leading-relaxed">
