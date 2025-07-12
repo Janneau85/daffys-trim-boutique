@@ -37,7 +37,7 @@ const HeroSection = () => {
                 </h1>
               </div>
 
-              <p className="text-lg text-muted-foreground font-elegant leading-relaxed max-w-2xl mx-auto">
+              <p className="text-lg text-foreground font-elegant leading-relaxed max-w-2xl mx-auto">
                 Hallo! Ik ben Daphne, een gediplomeerd hondentrimster met een passie 
                 voor het verzorgen van onze viervoetige vrienden. Vanuit mijn salon in 
                 Sittard verwelkom ik elke hond alsof het mijn eigen huisdier is.
