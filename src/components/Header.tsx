@@ -29,17 +29,14 @@ const Header = () => {
     }`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <h1 className={`text-2xl font-luxury font-semibold transition-colors duration-300 ${
-              isScrolled ? 'text-primary-foreground' : 'text-primary'
-            }`}>
-              Daffy's Trimsalon
-            </h1>
-            <span className={`text-sm hidden sm:block transition-colors duration-300 ${
-              isScrolled ? 'text-primary-foreground/70' : 'text-muted-foreground'
-            }`}>
-              Sittard
-            </span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/77389923-892b-4e23-b1fe-73595c243102.png" 
+              alt="Daffy's Trimsalon Logo"
+              className={`h-10 w-auto transition-all duration-300 ${
+                isScrolled ? 'filter brightness-0 invert' : ''
+              }`}
+            />
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
