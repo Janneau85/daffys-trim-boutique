@@ -21,14 +21,11 @@ const ContactSection = () => {
           <Card className="shadow-soft border border-border mb-8">
             <CardHeader className="text-center">
               <CardTitle className="font-luxury text-2xl">
-                📍 Bezoek Onze Salon
+                Contact & Afspraak
               </CardTitle>
-              <p className="text-black">
-                Spechtstraat 9, 6135 EJ Sittard
-              </p>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-4 gap-6">
                 {/* Location & Maps */}
                 <div className="space-y-4">
                   <h4 className="font-semibold text-black mb-3">📍 Locatie</h4>
@@ -49,9 +46,9 @@ const ContactSection = () => {
                   </div>
                 </div>
 
-                {/* Contact & Appointment Info */}
+                {/* Contact */}
                 <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">💬 Contact & Afspraken</h4>
+                  <h4 className="font-semibold text-black mb-3">💬 Contact</h4>
                   <div className="space-y-3">
                     <div className="flex items-center text-black">
                       <Phone className="w-4 h-4 mr-2" />
@@ -65,15 +62,19 @@ const ContactSection = () => {
                       <MessageCircle className="w-4 h-4 mr-2" />
                       WhatsApp
                     </Button>
-                    <div className="bg-accent/30 p-3 rounded-lg border border-primary/20">
-                      <p className="font-semibold text-primary text-sm mb-1">⚠️ Belangrijk</p>
-                      <p className="text-xs text-black mb-1">
-                        Uitsluitend op afspraak
-                      </p>
-                      <p className="text-xs text-black">
-                        Wachttijd: <span className="font-semibold text-primary">4 weken</span>
-                      </p>
-                    </div>
+                  </div>
+                </div>
+
+                {/* Important Info */}
+                <div className="space-y-4">
+                  <h4 className="font-semibold text-black mb-3">⚠️ Belangrijk</h4>
+                  <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
+                    <p className="text-sm font-semibold text-black mb-3">
+                      Uitsluitend op afspraak
+                    </p>
+                    <p className="text-sm text-black">
+                      Wachttijd: <span className="font-semibold text-primary text-lg">4 weken</span>
+                    </p>
                   </div>
                 </div>
 
