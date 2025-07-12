@@ -51,16 +51,6 @@ const Header = () => {
               Home
             </button>
             <button 
-              onClick={() => scrollToSection('over-daffy')}
-              className={`transition-colors duration-300 font-elegant ${
-                isScrolled 
-                  ? 'text-primary-foreground hover:text-primary-foreground/80' 
-                  : 'text-foreground hover:text-primary'
-              }`}
-            >
-              Over Daffy
-            </button>
-            <button 
               onClick={() => scrollToSection('behandelingen')}
               className={`transition-colors duration-300 font-elegant ${
                 isScrolled 
