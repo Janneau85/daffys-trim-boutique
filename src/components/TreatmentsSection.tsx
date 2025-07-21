@@ -17,6 +17,110 @@ const TreatmentsSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
+          <div className="mb-8">
+            <h3 className="text-2xl font-luxury font-bold text-black text-center mb-8">
+              Voorbeeldprijzen - Pomeranian Behandelingen
+            </h3>
+            <div className="grid md:grid-cols-3 gap-6 mb-6">
+              <Card className="shadow-soft border border-border">
+                <CardHeader>
+                  <CardTitle className="font-luxury text-lg flex items-center">
+                    <Sparkles className="w-5 h-5 mr-2 text-primary" />
+                    Puppy Treatment
+                  </CardTitle>
+                  <CardDescription className="text-sm">
+                    Tot 6 maanden
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-2xl font-bold text-primary mb-2">
+                    Vanaf €55.00
+                  </div>
+                  <div className="text-sm text-muted-foreground space-y-1">
+                    <p>• Wassen met shampoo & conditioner</p>
+                    <p>• Föhnen</p>
+                    <p>• Uitgekamd, klit vrij gemaakt</p>
+                    <p>• Nagels knippen</p>
+                    <p>• Voetjes modelleren</p>
+                    <p>• Kontje vrij ivm ontlasting</p>
+                    <p>• Oortjes in model (indien gewenst)</p>
+                    <p>• Luxe parfum</p>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      (met vachtmasker +€5.00)
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-soft border border-border">
+                <CardHeader>
+                  <CardTitle className="font-luxury text-lg flex items-center">
+                    <Scissors className="w-5 h-5 mr-2 text-primary" />
+                    Basic Treatment
+                  </CardTitle>
+                  <CardDescription className="text-sm">
+                    Standaard verzorging
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-2xl font-bold text-primary mb-2">
+                    Vanaf €65.00
+                  </div>
+                  <div className="text-sm text-muted-foreground space-y-1">
+                    <p>• Wassen met shampoo & conditioner</p>
+                    <p>• Föhnen</p>
+                    <p>• Uitgekamd, klit vrij gemaakt</p>
+                    <p>• Nagels knippen</p>
+                    <p>• Voetjes modelleren</p>
+                    <p>• Kontje vrij ivm ontlasting</p>
+                    <p>• Oortjes in model (indien gewenst)</p>
+                    <p>• Luxe parfum</p>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      (met vachtmasker +€5.00)
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="shadow-soft border border-border">
+                <CardHeader>
+                  <CardTitle className="font-luxury text-lg flex items-center">
+                    <Heart className="w-5 h-5 mr-2 text-primary" />
+                    Luxe Treatment
+                  </CardTitle>
+                  <CardDescription className="text-sm">
+                    Premium verzorging
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="text-2xl font-bold text-primary mb-2">
+                    Vanaf €75.00
+                  </div>
+                  <div className="text-sm text-muted-foreground space-y-1">
+                    <p>• Wassen met shampoo & conditioner</p>
+                    <p>• Föhnen</p>
+                    <p>• Uitgekamd, klit vrij gemaakt</p>
+                    <p>• Nagels knippen</p>
+                    <p>• Voetjes modelleren</p>
+                    <p>• Kontje vrij ivm ontlasting</p>
+                    <p>• Oortjes in model (indien gewenst)</p>
+                    <p>• In model knippen</p>
+                    <p>• Paw balsem</p>
+                    <p>• Luxe parfum</p>
+                    <p className="text-xs text-muted-foreground mt-2">
+                      (met vachtmasker +€5.00)
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            
+            <div className="bg-gradient-subtle p-4 rounded-lg border border-primary/20 text-center">
+              <p className="text-sm text-muted-foreground">
+                <strong>Let op:</strong> Dit zijn voorbeeldprijzen voor Pomeranians. Prijzen voor andere rassen kunnen variëren afhankelijk van grootte en vachtype. Neem contact op voor een prijsopgave voor uw hond.
+              </p>
+            </div>
+          </div>
           <Card className="shadow-soft border border-border mb-8">
             <CardHeader className="text-center">
               <CardTitle className="font-luxury text-2xl flex items-center justify-center">
