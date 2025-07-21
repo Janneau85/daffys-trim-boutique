@@ -144,24 +144,24 @@ const TreatmentsSection = () => {
                   </div>
                   
                   <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 text-sm">
-                    <div className="flex justify-between"><span>Boomer</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Cavelier King Charles</span><span className="font-semibold">€80.00</span></div>
-                    <div className="flex justify-between"><span>Chihuahua</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Franse Bulldog</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Lhasa Apso</span><span className="font-semibold">€65.00</span></div>
-                    <div className="flex justify-between"><span>Maltezer</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Mopshond</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Pekinees</span><span className="font-semibold">€65.00</span></div>
-                    <div className="flex justify-between"><span>Shiba Inu</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Shih Tzu</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Teckel Langhaar</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Vlinder Hondje</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Yorkshire Terrier</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Japanse Chin</span><span className="font-semibold">€65.00</span></div>
-                    <div className="flex justify-between"><span>Boston Terriër</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Teckel Gladhaar</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Jack Russell Gladhaar</span><span className="font-semibold">€60.00</span></div>
-                    <div className="flex justify-between"><span>Welsh Corgi</span><span className="font-semibold">€80.00</span></div>
+                    <div className="flex justify-between"><span>Boomer</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Cavelier King Charles</span><span className="font-semibold">v.a. €80.00</span></div>
+                    <div className="flex justify-between"><span>Chihuahua</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Franse Bulldog</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Lhasa Apso</span><span className="font-semibold">v.a. €65.00</span></div>
+                    <div className="flex justify-between"><span>Maltezer</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Mopshond</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Pekinees</span><span className="font-semibold">v.a. €65.00</span></div>
+                    <div className="flex justify-between"><span>Shiba Inu</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Shih Tzu</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Teckel Langhaar</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Vlinder Hondje</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Yorkshire Terrier</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Japanse Chin</span><span className="font-semibold">v.a. €65.00</span></div>
+                    <div className="flex justify-between"><span>Boston Terriër</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Teckel Gladhaar</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Jack Russell Gladhaar</span><span className="font-semibold">v.a. €60.00</span></div>
+                    <div className="flex justify-between"><span>Welsh Corgi</span><span className="font-semibold">v.a. €80.00</span></div>
                   </div>
                 </div>
               </div>
@@ -173,13 +173,13 @@ const TreatmentsSection = () => {
                 </h4>
                 <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm">
-                    <div className="flex justify-between"><span>Border Collie</span><span className="font-semibold">€80.00</span></div>
-                    <div className="flex justify-between"><span>Hollandse Schapendoes</span><span className="font-semibold">€85.00</span></div>
-                    <div className="flex justify-between"><span>Keeshond Middenslag</span><span className="font-semibold">€85.00</span></div>
-                    <div className="flex justify-between"><span>Kooiker</span><span className="font-semibold">€67.50</span></div>
-                    <div className="flex justify-between"><span>Nova Scotia Duck Tolling</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Tibetaanse Terriër</span><span className="font-semibold">€85.00</span></div>
-                    <div className="flex justify-between"><span>Australian Shepherd</span><span className="font-semibold">€85.00</span></div>
+                    <div className="flex justify-between"><span>Border Collie</span><span className="font-semibold">v.a. €80.00</span></div>
+                    <div className="flex justify-between"><span>Hollandse Schapendoes</span><span className="font-semibold">v.a. €85.00</span></div>
+                    <div className="flex justify-between"><span>Keeshond Middenslag</span><span className="font-semibold">v.a. €85.00</span></div>
+                    <div className="flex justify-between"><span>Kooiker</span><span className="font-semibold">v.a. €67.50</span></div>
+                    <div className="flex justify-between"><span>Nova Scotia Duck Tolling</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Tibetaanse Terriër</span><span className="font-semibold">v.a. €85.00</span></div>
+                    <div className="flex justify-between"><span>Australian Shepherd</span><span className="font-semibold">v.a. €85.00</span></div>
                   </div>
                 </div>
               </div>
@@ -196,14 +196,14 @@ const TreatmentsSection = () => {
                         <span className="font-medium">Toypoedel</span>
                         <div className="text-xs text-muted-foreground">schofthoogte tot 28 cm</div>
                       </div>
-                      <span className="font-semibold">€75.00</span>
+                      <span className="font-semibold">v.a. €75.00</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <div>
                         <span className="font-medium">Dwergpoedel</span>
                         <div className="text-xs text-muted-foreground">schofthoogte 28-35 cm</div>
                       </div>
-                      <span className="font-semibold">€80.00</span>
+                      <span className="font-semibold">v.a. €80.00</span>
                     </div>
                   </div>
                 </div>
@@ -216,14 +216,14 @@ const TreatmentsSection = () => {
                 </h4>
                 <div className="bg-card p-6 rounded-lg shadow-soft border border-border">
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 text-sm">
-                    <div className="flex justify-between"><span>Mini Doodle</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Bidoodle</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Chipoo</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Maltipoo</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Peekapoo Small</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Pomapoo Small</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Shih Poo Small</span><span className="font-semibold">€75.00</span></div>
-                    <div className="flex justify-between"><span>Boompoo</span><span className="font-semibold">€75.00</span></div>
+                    <div className="flex justify-between"><span>Mini Doodle</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Bidoodle</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Chipoo</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Maltipoo</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Peekapoo Small</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Pomapoo Small</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Shih Poo Small</span><span className="font-semibold">v.a. €75.00</span></div>
+                    <div className="flex justify-between"><span>Boompoo</span><span className="font-semibold">v.a. €75.00</span></div>
                   </div>
                   <div className="mt-3 text-xs text-muted-foreground">
                     Small varianten: tot 35 cm schofthoogte
