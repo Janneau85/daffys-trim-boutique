@@ -69,11 +69,8 @@ const ContactSection = () => {
                 <div className="space-y-4">
                   <h4 className="font-semibold text-black mb-3">⚠️ Belangrijk</h4>
                   <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
-                    <p className="text-sm font-semibold text-black mb-3">
+                    <p className="text-sm font-semibold text-black">
                       Uitsluitend op afspraak
-                    </p>
-                    <p className="text-sm text-black">
-                      Wachttijd: <span className="font-semibold text-primary text-lg">4 weken</span>
                     </p>
                   </div>
                 </div>
