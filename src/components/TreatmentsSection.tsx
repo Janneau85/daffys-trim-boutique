@@ -34,7 +34,7 @@ const TreatmentsSection = () => {
                   <span className="font-semibold text-primary">Puppy Wenbeurtje</span>
                 </div>
                 <p className="text-sm text-foreground">
-                  Speciaal voor puppy's tot 5 maanden - ook te boeken via onderstaande link
+                  Speciaal voor puppy's tot 5 maanden
                 </p>
               </div>
               <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20">
