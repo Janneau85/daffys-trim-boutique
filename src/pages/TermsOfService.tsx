@@ -71,6 +71,7 @@ const TermsOfService = () => {
               <p>Indien de klant niet op tijd betaalt, kan de trimsalon de teruggave van het behandelde dier weigeren totdat de betaling is voldaan.</p>
               <p>Indien de behandeling niet kan plaatsvinden vanwege gedragsproblemen of ernstige gezondheidsproblemen zoals losse tanden of ontstekingen, wordt het volledige bedrag van de geplande behandeling in rekening gebracht.</p>
               <p><strong>Vlooienbehandeling:</strong> Indien een huisdier vlooien blijkt te hebben tijdens de behandeling, worden extra kosten (€25,00) in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
+              <p><strong>Prijzen en Extra Werk:</strong> De vermelde prijzen gelden voor goed onderhouden vachten zonder extreme klitten, vervilting of andere uitzonderlijke omstandigheden. Indien tijdens de behandeling blijkt dat er extra werk nodig is, zoals het verwijderen van klitten, vervilting of andere intensieve behandelingen die buiten de standaardbehandeling vallen, zullen de hieraan verbonden extra kosten altijd aan de klant worden doorberekend. Deze extra kosten worden zo veel mogelijk vooraf of tijdens de behandeling met de klant besproken.</p>
             </div>
           </section>
 
