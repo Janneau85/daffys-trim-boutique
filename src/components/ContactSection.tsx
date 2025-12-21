@@ -65,12 +65,22 @@ const ContactSection = () => {
                   </div>
                 </div>
 
-                {/* Important Info */}
+                {/* Opening Hours */}
                 <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">⚠️ Belangrijk</h4>
-                  <div className="bg-accent/30 p-4 rounded-lg border border-primary/20">
+                  <h4 className="font-semibold text-black mb-3">🕐 Openingstijden</h4>
+                  <div className="space-y-2 text-sm text-black">
+                    <div className="flex justify-between">
+                      <span>Dinsdag - Donderdag</span>
+                      <span className="font-semibold">9:00 - 15:30</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span>Vrijdag</span>
+                      <span className="font-semibold">9:00 - 14:30</span>
+                    </div>
+                  </div>
+                  <div className="bg-accent/30 p-3 rounded-lg border border-primary/20 mt-3">
                     <p className="text-sm font-semibold text-black">
-                      Uitsluitend op afspraak
+                      ⚠️ Uitsluitend op afspraak
                     </p>
                   </div>
                 </div>
