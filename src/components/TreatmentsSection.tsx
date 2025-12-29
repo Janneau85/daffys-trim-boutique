@@ -77,7 +77,7 @@ const TreatmentsSection = () => {
                   <h4 className="font-semibold text-foreground mb-2">🚫 Vlooienbeleid</h4>
                   <p className="text-muted-foreground text-sm">
                     Honden moeten vlo-vrij naar de salon komen.<br/>
-                    Bij aanwezigheid van vlooien rekenen we een extra schoonmaaktoeslag van €25 om de salon vlo-vrij te houden voor alle dieren.
+                    Bij aanwezigheid van vlooien rekenen we een extra schoonmaaktoeslag van €27,50 om de salon vlo-vrij te houden voor alle dieren.
                   </p>
                 </div>
                 <div>
