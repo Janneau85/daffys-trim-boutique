@@ -43,7 +43,7 @@ const TermsOfService = () => {
             <div className="space-y-3 text-black">
               <p><strong>Annuleren van Afspraken:</strong> Afspraken kunnen kosteloos worden geannuleerd, verzet of gewijzigd tot 24 uur van tevoren. Indien een afspraak niet wordt nagekomen of minder dan 24 uur van tevoren wordt geannuleerd, wordt de volledige kosten van de geplande behandeling in rekening gebracht.</p>
               <p><strong>Te Laat Komen:</strong> Bij een vertraging van 15 minuten of langer wordt de afspraak als no-show beschouwd en wordt de volledige behandeling in rekening gebracht.</p>
-              <p><strong>Ophalen van de Hond:</strong> De hond dient binnen 30 minuten na het opgegeven ophaaltijdstip te worden opgehaald. Indien de hond later wordt opgehaald, wordt er een oppasvergoeding van €10 per 30 minuten in rekening gebracht.</p>
+              <p><strong>Ophalen van de Hond:</strong> De hond dient binnen 30 minuten na het opgegeven ophaaltijdstip te worden opgehaald. Indien de hond later wordt opgehaald, wordt er een oppasvergoeding van €12,50 per 30 minuten in rekening gebracht.</p>
             </div>
           </section>
 
@@ -70,7 +70,7 @@ const TermsOfService = () => {
               <p>Betaling dient bij het ophalen van het huisdier te geschieden, tenzij anders is overeengekomen. Dit kan via een digitaal betaalverzoek of contant.</p>
               <p>Indien de klant niet op tijd betaalt, kan de trimsalon de teruggave van het behandelde dier weigeren totdat de betaling is voldaan.</p>
               <p>Indien de behandeling niet kan plaatsvinden vanwege gedragsproblemen of ernstige gezondheidsproblemen zoals losse tanden of ontstekingen, wordt het volledige bedrag van de geplande behandeling in rekening gebracht.</p>
-              <p><strong>Vlooienbehandeling:</strong> Indien een huisdier vlooien blijkt te hebben tijdens de behandeling, worden extra kosten (€25,00) in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
+              <p><strong>Vlooienbehandeling:</strong> Indien een huisdier vlooien blijkt te hebben tijdens de behandeling, worden extra kosten (€27,50) in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
               <p><strong>Prijzen en Extra Werk:</strong> De vermelde v.a. prijzen gelden voor goed onderhouden vachten zonder extreme klitten, vervilting of andere uitzonderlijke omstandigheden. Indien wij voorafgaand aan de behandeling al extra werk verwachten, zullen wij dit altijd van tevoren met u bespreken. Indien tijdens de behandeling blijkt dat er onverwacht extra werk nodig is, zoals het verwijderen van klitten, vervilting of andere intensieve behandelingen die buiten de standaardbehandeling vallen, worden de hieraan verbonden extra kosten direct doorberekend tegen €60 per uur. Mits wij verwachten dat er meer dan 30 minuten extra werk nodig is, zullen wij telefonisch contact met u opnemen.</p>
             </div>
           </section>
