@@ -36,15 +36,6 @@ const TreatmentsSection = () => {
                   Afhankelijk van de staat van de vacht en uw wensen kan het bedrag verschillen.
                 </p>
               </div>
-              <div className="bg-primary/10 p-4 rounded-lg border border-primary/30">
-                <div className="flex items-center justify-center mb-2">
-                  <Heart className="w-5 h-5 mr-2 text-primary" />
-                  <span className="font-semibold text-primary">Puppy Wenbeurtje</span>
-                </div>
-                <p className="text-sm text-foreground text-center">
-                  Speciaal voor puppy's tot 6 maanden
-                </p>
-              </div>
               <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20 text-center">
                 <Button 
                   variant="luxury" 
