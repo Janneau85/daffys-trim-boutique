@@ -27,17 +27,25 @@ const TreatmentsSection = () => {
                 Bekijk onze volledige prijslijst en maak direct een afspraak via ons online systeem
               </CardDescription>
             </CardHeader>
-            <CardContent className="text-center space-y-6">
-              <div className="bg-primary/10 p-4 rounded-lg border border-primary/30 mb-4">
+            <CardContent className="space-y-6">
+              <div className="bg-muted/50 p-4 rounded-lg border border-border text-left">
+                <h4 className="font-semibold text-foreground mb-2">💰 Prijzen</h4>
+                <p className="text-muted-foreground text-sm">
+                  De genoemde prijzen zijn een indicatie voor het trimmen.<br/>
+                  De opgegeven prijs is een basisprijs en geldt alleen bij goed onderhouden vachten met weinig klitten.<br/>
+                  Afhankelijk van de staat van de vacht en uw wensen kan het bedrag verschillen.
+                </p>
+              </div>
+              <div className="bg-primary/10 p-4 rounded-lg border border-primary/30">
                 <div className="flex items-center justify-center mb-2">
                   <Heart className="w-5 h-5 mr-2 text-primary" />
                   <span className="font-semibold text-primary">Puppy Wenbeurtje</span>
                 </div>
-                <p className="text-sm text-foreground">
+                <p className="text-sm text-foreground text-center">
                   Speciaal voor puppy's tot 6 maanden
                 </p>
               </div>
-              <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20">
+              <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20 text-center">
                 <Button 
                   variant="luxury" 
                   size="lg"
@@ -58,17 +66,15 @@ const TreatmentsSection = () => {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-foreground mb-2">💰 Prijzen</h4>
-                  <p className="text-muted-foreground text-sm">
-                    De genoemde prijzen zijn een indicatie voor het trimmen.<br/>
-                    De opgegeven prijs is een basisprijs en geldt alleen bij goed onderhouden vachten met weinig klitten.<br/>
-                    Afhankelijk van de staat van de vacht en uw wensen kan het bedrag verschillen.
-                  </p>
-                </div>
-                <div>
                   <h4 className="font-semibold text-foreground mb-2">🐕 Welzijn voorop</h4>
                   <p className="text-muted-foreground text-sm">
                     Bij ons staat het welzijn van uw hond voorop: we nemen de tijd voor elke behandeling en zorgen ervoor dat uw hond zich op zijn gemak voelt in een rustige en ontspannen omgeving.
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-foreground mb-2">🐕 Alle rassen welkom</h4>
+                  <p className="text-muted-foreground text-sm">
+                    De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
                   </p>
                 </div>
               </div>
@@ -80,13 +86,7 @@ const TreatmentsSection = () => {
                     Bij aanwezigheid van vlooien rekenen we een extra schoonmaaktoeslag van €27,50 om de salon vlo-vrij te houden voor alle dieren.
                   </p>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-foreground mb-2">🐕 Alle rassen welkom</h4>
-                  <p className="text-muted-foreground text-sm">
-                    De rassen op onze website zijn slechts een klein aantal voorbeelden. Als je het ras van jouw hond er niet tussen ziet staan, neem dan contact met ons op.
-                  </p>
-                </div>
-                </div>
+              </div>
             </div>
             
             <div className="mt-6 pt-6 border-t border-border text-center">
