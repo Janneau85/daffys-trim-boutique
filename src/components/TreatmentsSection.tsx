@@ -27,25 +27,25 @@ const TreatmentsSection = () => {
                 Bekijk onze volledige prijslijst en maak direct een afspraak via ons online systeem
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="bg-muted/50 p-4 rounded-lg border border-border text-left">
+            <CardContent>
+              <div className="bg-muted/50 p-6 rounded-lg border border-border">
                 <h4 className="font-semibold text-foreground mb-2">💰 Prijzen</h4>
-                <p className="text-muted-foreground text-sm">
+                <p className="text-muted-foreground text-sm mb-6">
                   De genoemde prijzen zijn een indicatie voor het trimmen.<br/>
                   De opgegeven prijs is een basisprijs en geldt alleen bij goed onderhouden vachten met weinig klitten.<br/>
                   Afhankelijk van de staat van de vacht en uw wensen kan het bedrag verschillen.
                 </p>
-              </div>
-              <div className="bg-gradient-subtle p-6 rounded-lg border border-primary/20 text-center">
-                <Button 
-                  variant="luxury" 
-                  size="lg"
-                  onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
-                  className="w-full max-w-md"
-                >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Bekijk Tarieven & Maak Afspraak
-                </Button>
+                <div className="text-center">
+                  <Button 
+                    variant="luxury" 
+                    size="lg"
+                    onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
+                    className="w-full max-w-md"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Bekijk Tarieven & Maak Afspraak
+                  </Button>
+                </div>
               </div>
             </CardContent>
           </Card>
