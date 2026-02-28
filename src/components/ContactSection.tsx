@@ -71,15 +71,15 @@ const ContactSection = () => {
                   <div className="space-y-1 text-sm text-black">
                     <div className="flex justify-between">
                       <span>Dinsdag</span>
-                      <span className="font-semibold">9:00 - 15:30</span>
+                      <span className="font-semibold">9:00 - 15:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Woensdag</span>
-                      <span className="font-semibold">9:00 - 15:30</span>
+                      <span className="font-semibold">9:00 - 15:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Donderdag</span>
-                      <span className="font-semibold">9:00 - 15:30</span>
+                      <span className="font-semibold">9:00 - 15:00</span>
                     </div>
                     <div className="flex justify-between">
                       <span>Vrijdag</span>
