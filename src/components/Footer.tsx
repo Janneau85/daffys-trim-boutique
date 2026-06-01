@@ -120,9 +120,6 @@ const Footer = () => {
               >
                 Privacy
               </Link>
-              <span className="text-warm-white/60">
-                Gemaakt met liefde & powered by Lovable
-              </span>
             </div>
           </div>
         </div>

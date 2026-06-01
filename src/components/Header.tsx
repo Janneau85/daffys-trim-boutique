@@ -32,13 +32,15 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <img 
-              src="/lovable-uploads/77389923-892b-4e23-b1fe-73595c243102.png" 
-              alt="Daffy's Trimsalon Logo"
-              className={`h-10 w-auto transition-all duration-300 ${
-                isScrolled ? 'filter brightness-0 invert' : ''
+            <button
+              onClick={() => scrollToSection('home')}
+              aria-label="Daffy's Trimsalon — naar boven"
+              className={`font-luxury text-xl md:text-2xl font-bold tracking-tight transition-colors duration-300 ${
+                isScrolled ? 'text-primary-foreground' : 'text-foreground'
               }`}
-            />
+            >
+              Daffy's Trimsalon
+            </button>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

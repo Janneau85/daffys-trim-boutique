@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Calendar } from "lucide-react";
-import heroImage from "@/assets/realistic-pomeranian.jpg";
 import { WHATSAPP_URL, BOOKING_URL } from "@/lib/contact";
 
 const HeroSection = () => {
