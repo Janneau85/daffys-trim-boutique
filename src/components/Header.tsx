@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { WHATSAPP_URL, BOOKING_URL } from "@/lib/contact";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -80,35 +82,39 @@ const Header = () => {
             >
               Contact
             </button>
-            <button 
-              onClick={() => window.open('/terms-of-service', '_self')}
+            <Link
+              to="/terms-of-service"
               className={`transition-colors duration-300 font-elegant ${
-                isScrolled 
-                  ? 'text-primary-foreground hover:text-primary-foreground/80' 
+                isScrolled
+                  ? 'text-primary-foreground hover:text-primary-foreground/80'
                   : 'text-foreground hover:text-primary'
               }`}
             >
               Voorwaarden
-            </button>
+            </Link>
           </nav>
 
           <div className="flex items-center space-x-3">
-            <Button 
-              variant="whatsapp" 
-              size="sm" 
-              onClick={() => window.open('https://wa.me/31612345678', '_blank')}
+            <Button
+              asChild
+              variant="whatsapp"
+              size="sm"
               className="hidden sm:flex"
             >
-              <MessageCircle className="w-4 h-4" />
-              WhatsApp
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-4 h-4" />
+                WhatsApp
+              </a>
             </Button>
-            <Button 
-              variant="luxury" 
+            <Button
+              asChild
+              variant="luxury"
               size="sm"
-              onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
             >
-              <Calendar className="w-4 h-4" />
-              Afspraak
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                <Calendar className="w-4 h-4" />
+                Afspraak
+              </a>
             </Button>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Calendar } from "lucide-react";
 import heroImage from "@/assets/realistic-pomeranian.jpg";
+import { WHATSAPP_URL, BOOKING_URL } from "@/lib/contact";
 
 const HeroSection = () => {
   const scrollToContact = () => {
@@ -50,23 +51,27 @@ const HeroSection = () => {
 
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button 
-                  variant="luxury" 
+                <Button
+                  asChild
+                  variant="luxury"
                   size="lg"
-                  onClick={() => window.open('https://wa.me/31612345678', '_blank')}
                   className="flex-1 sm:flex-none"
                 >
-                  <MessageCircle className="w-5 h-5" />
-                  WhatsApp
+                  <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-5 h-5" />
+                    WhatsApp
+                  </a>
                 </Button>
-                <Button 
-                  variant="elegant" 
+                <Button
+                  asChild
+                  variant="elegant"
                   size="lg"
-                  onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
                   className="flex-1 sm:flex-none"
                 >
-                  <Calendar className="w-5 h-5" />
-                  Online Afspraak Plannen
+                  <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                    <Calendar className="w-5 h-5" />
+                    Online Afspraak Plannen
+                  </a>
                 </Button>
               </div>
 

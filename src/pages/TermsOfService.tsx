@@ -41,7 +41,7 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-luxury font-bold text-black mb-4">2. Afspraken en Annuleringen</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Annuleren van Afspraken:</strong> Afspraken kunnen kosteloos worden geannuleerd, verzet of gewijzigd tot 24 uur van tevoren. Indien een afspraak niet wordt nagekomen of minder dan 24 uur van tevoren wordt geannuleerd, wordt de volledige kosten van de geplande behandeling in rekening gebracht.</p>
+              <p><strong>Annuleren van Afspraken:</strong> Afspraken kunnen kosteloos worden geannuleerd, verzet of gewijzigd tot 24 uur van tevoren. Indien een afspraak niet wordt nagekomen of minder dan 24 uur van tevoren wordt geannuleerd, worden de volledige kosten van de geplande behandeling in rekening gebracht.</p>
               <p><strong>Te Laat Komen:</strong> Bij een vertraging van 15 minuten of langer wordt de afspraak als no-show beschouwd en wordt de volledige behandeling in rekening gebracht.</p>
               <p><strong>Ophalen van de Hond:</strong> De hond dient binnen 30 minuten na het opgegeven ophaaltijdstip te worden opgehaald. Indien de hond later wordt opgehaald, wordt er een oppasvergoeding van €12,50 per 30 minuten in rekening gebracht.</p>
             </div>

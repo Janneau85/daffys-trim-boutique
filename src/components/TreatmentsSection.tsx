@@ -2,6 +2,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Star, Heart, Scissors, Sparkles, ExternalLink } from "lucide-react";
+import { Link } from "react-router-dom";
+import { BOOKING_URL } from "@/lib/contact";
 
 const TreatmentsSection = () => {
   return (
@@ -36,14 +38,16 @@ const TreatmentsSection = () => {
                   Afhankelijk van de staat van de vacht en uw wensen kan het bedrag verschillen.
                 </p>
                 <div className="text-center">
-                  <Button 
-                    variant="luxury" 
+                  <Button
+                    asChild
+                    variant="luxury"
                     size="lg"
-                    onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
                     className="w-full max-w-md"
                   >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Bekijk Tarieven & Maak Afspraak
+                    <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Bekijk Tarieven & Maak Afspraak
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -85,14 +89,16 @@ const TreatmentsSection = () => {
               <p className="text-sm text-black mb-4">
                 Voor alle voorwaarden en belangrijke informatie over onze dienstverlening.
               </p>
-              <Button 
-                variant="outline" 
+              <Button
+                asChild
+                variant="outline"
                 size="lg"
-                onClick={() => window.open('/terms-of-service', '_self')}
                 className="w-full max-w-md"
               >
-                <ExternalLink className="w-4 h-4 mr-2" />
-                Bekijk Algemene Voorwaarden
+                <Link to="/terms-of-service">
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Bekijk Algemene Voorwaarden
+                </Link>
               </Button>
             </div>
             
