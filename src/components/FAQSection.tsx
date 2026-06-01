@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { WHATSAPP_URL, BOOKING_URL } from "@/lib/contact";
 
 const FAQSection = () => {
   const faqs = [
@@ -8,7 +9,7 @@ const FAQSection = () => {
     },
     {
       question: "Waarom kan de prijs verschillen per ras of kruising?",
-      answer: "Onderhoud van de vacht; niet alle vachten zijn even goed onderhouden. Goed onderhouden vachten kost minder tijd in de trimsalon dan vachten die minder goed zijn onderhouden. Gedrag; De ene hond is het gewend om op tafel te staan en staat goed stil, een andere hond is erg bewegelijk, een volgende hond wil alleen maar liggen en weer andere hond vindt het allemaal wat spannend. Verschil binnen een ras; Bij hetzelfde ras kunnen ook veel verschillende vachttypes zitten. Denk aan veel/weinig onderwol, krullen, ruwhaar etc. Castratenvacht; de vacht van een hond die gecastreerd is veranderd vaak, waardoor dit veel meerwerk kan zijn. Honden met vlooien; Honden met vlooien moeten met een speciale shampoo gewassen worden. Ook moeten we nadien de trimsalon volledig schoonmaken en ontsmetten om een vlooienplaag te voorkomen"
+      answer: "Onderhoud van de vacht; niet alle vachten zijn even goed onderhouden. Goed onderhouden vachten kost minder tijd in de trimsalon dan vachten die minder goed zijn onderhouden. Gedrag; De ene hond is het gewend om op tafel te staan en staat goed stil, een andere hond is erg bewegelijk, een volgende hond wil alleen maar liggen en weer andere hond vindt het allemaal wat spannend. Verschil binnen een ras; Bij hetzelfde ras kunnen ook veel verschillende vachttypes zitten. Denk aan veel/weinig onderwol, krullen, ruwhaar etc. Castratenvacht; de vacht van een hond die gecastreerd is, verandert vaak, waardoor dit veel meerwerk kan zijn. Honden met vlooien; Honden met vlooien moeten met een speciale shampoo gewassen worden. Ook moeten we nadien de trimsalon volledig schoonmaken en ontsmetten om een vlooienplaag te voorkomen"
     },
     {
       question: "Hoe kan ik betalen?",
@@ -64,18 +65,22 @@ const FAQSection = () => {
             Ik help je graag verder. Stuur een berichtje via WhatsApp of plan direct online een afspraak in.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => window.open('https://wa.me/31612345678', '_blank')}
-              className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors font-elegant"
+            <a
+              href={WHATSAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors font-elegant"
             >
               WhatsApp Vraag
-            </button>
-            <button 
-              onClick={() => window.open('https://portal.looppiness.com/daffy-s-trimsalon/', '_blank')}
-              className="bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-elegant"
+            </a>
+            <a
+              href={BOOKING_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-elegant"
             >
               Online Afspraak Inplannen
-            </button>
+            </a>
           </div>
         </div>
       </div>

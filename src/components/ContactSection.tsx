@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, Phone, Clock, MessageCircle, ExternalLink } from "lucide-react";
+import { WHATSAPP_URL, BOOKING_URL, MAPS_URL, PHONE, PHONE_DISPLAY } from "@/lib/contact";
 
 const ContactSection = () => {
   return (
@@ -35,13 +36,15 @@ const ContactSection = () => {
                       <p>Spechtstraat 9</p>
                       <p>6135 EJ Sittard</p>
                     </div>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      asChild
+                      variant="outline"
                       className="w-full"
-                      onClick={() => window.open('https://maps.google.com/?q=Spechtstraat+9+Sittard', '_blank')}
                     >
-                      <MapPin className="w-4 h-4 mr-2" />
-                      Google Maps
+                      <a href={MAPS_URL} target="_blank" rel="noopener noreferrer">
+                        <MapPin className="w-4 h-4 mr-2" />
+                        Google Maps
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -50,17 +53,19 @@ const ContactSection = () => {
                 <div className="space-y-4">
                   <h4 className="font-semibold text-black mb-3">💬 Contact</h4>
                   <div className="space-y-3">
-                    <div className="flex items-center text-black">
+                    <a href={`tel:${PHONE}`} className="flex items-center text-black hover:text-primary transition-colors">
                       <Phone className="w-4 h-4 mr-2" />
-                      <span>06 40 33 87 98</span>
-                    </div>
-                    <Button 
-                      variant="whatsapp" 
+                      <span>{PHONE_DISPLAY}</span>
+                    </a>
+                    <Button
+                      asChild
+                      variant="whatsapp"
                       className="w-full"
-                      onClick={() => window.open('https://wa.me/31640338798', '_blank')}
                     >
-                      <MessageCircle className="w-4 h-4 mr-2" />
-                      WhatsApp
+                      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                        <MessageCircle className="w-4 h-4 mr-2" />
+                        WhatsApp
+                      </a>
                     </Button>
                   </div>
                 </div>
@@ -101,14 +106,16 @@ const ContactSection = () => {
                     <p className="text-sm text-black mb-4">
                       Bekijk beschikbare tijden en maak direct een afspraak.
                     </p>
-                    <Button 
-                      variant="luxury" 
-                      size="lg" 
+                    <Button
+                      asChild
+                      variant="luxury"
+                      size="lg"
                       className="w-full"
-                      onClick={() => window.open('https://www.daffystrimsalon.nl/trimbehandelingen-1', '_blank')}
                     >
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Online Afspraak
+                      <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="w-4 h-4 mr-2" />
+                        Online Afspraak
+                      </a>
                     </Button>
                   </div>
                 </div>

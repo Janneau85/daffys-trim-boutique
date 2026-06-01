@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Instagram, ExternalLink } from "lucide-react";
+import { INSTAGRAM_URL } from "@/lib/contact";
 
 const InstagramSection = () => {
   return (
@@ -20,15 +21,17 @@ const InstagramSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button 
-            variant="luxury" 
+          <Button
+            asChild
+            variant="luxury"
             size="lg"
-            onClick={() => window.open('https://www.instagram.com/daffys_trimsalon/', '_blank')}
             className="group"
           >
-            <Instagram className="w-5 h-5 mr-2" />
-            Volg ons op Instagram
-            <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+              <Instagram className="w-5 h-5 mr-2" />
+              Volg ons op Instagram
+              <ExternalLink className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            </a>
           </Button>
           <p className="text-sm text-muted-foreground mt-4 font-elegant">
             Nieuwste updates, tips en prachtige transformaties
@@ -40,7 +43,7 @@ const InstagramSection = () => {
             Tag ons in je posts! 📸
           </h3>
           <p className="text-muted-foreground font-elegant max-w-2xl mx-auto">
-            Heb je een mooie foto van je getrimde hondje? Tag ons @daffystrimsalon 
+            Heb je een mooie foto van je getrimde hondje? Tag ons @daffys_trimsalon
             of gebruik #daffystrimsalon en misschien zie je jouw foto terug op onze pagina!
           </p>
         </div>
