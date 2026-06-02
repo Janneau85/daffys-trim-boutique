@@ -35,7 +35,7 @@ const HeroSection = () => {
                 {/* Bullet points - midden */}
                 <div className="bg-card p-6 rounded-lg shadow-soft border border-border max-w-md relative">
                   {/* 5+ jaar ervaring box - rechts overlopend */}
-                  <div className="absolute -right-6 -top-4 bg-primary text-primary-foreground px-3 py-2 rounded-lg text-sm font-semibold shadow-soft">
+                  <div className="absolute -right-2 -top-3 sm:-right-6 sm:-top-4 bg-primary text-primary-foreground px-3 py-2 rounded-lg text-sm font-semibold shadow-soft">
                     ✨ 5+ jaar ervaring
                   </div>
                   

@@ -17,20 +17,20 @@ const Footer = () => {
             <h3 className="font-luxury text-2xl font-bold mb-4 text-primary-glow">
               Daffy's Trimsalon
             </h3>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
               <a
                 href={INSTAGRAM_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Daffy's Trimsalon op Instagram"
-                className="text-warm-white/80 hover:text-primary-glow transition-colors"
+                className="inline-flex p-2 text-warm-white/80 hover:text-primary-glow transition-colors"
               >
                 <Instagram className="w-5 h-5" />
               </a>
               <a
                 href={`tel:${PHONE}`}
                 aria-label={`Bel ${PHONE_DISPLAY}`}
-                className="text-warm-white/80 hover:text-primary-glow transition-colors"
+                className="inline-flex p-2 text-warm-white/80 hover:text-primary-glow transition-colors"
               >
                 <Phone className="w-5 h-5" />
               </a>
@@ -42,11 +42,11 @@ const Footer = () => {
             <h4 className="font-semibold mb-4 text-primary-glow">
               Snelle Links
             </h4>
-            <ul className="space-y-2 text-warm-white/90">
+            <ul className="text-warm-white/90">
               <li>
                 <button
                   onClick={() => scrollToSection('home')}
-                  className="hover:text-primary-glow transition-colors"
+                  className="block py-2 hover:text-primary-glow transition-colors"
                 >
                   Home
                 </button>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('behandelingen')}
-                  className="hover:text-primary-glow transition-colors"
+                  className="block py-2 hover:text-primary-glow transition-colors"
                 >
                   Prijslijst
                 </button>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('faq')}
-                  className="hover:text-primary-glow transition-colors"
+                  className="block py-2 hover:text-primary-glow transition-colors"
                 >
                   Veelgestelde Vragen
                 </button>
@@ -70,7 +70,7 @@ const Footer = () => {
               <li>
                 <button
                   onClick={() => scrollToSection('contact')}
-                  className="hover:text-primary-glow transition-colors"
+                  className="block py-2 hover:text-primary-glow transition-colors"
                 >
                   Contact
                 </button>
@@ -78,7 +78,7 @@ const Footer = () => {
               <li>
                 <Link
                   to="/terms-of-service"
-                  className="hover:text-primary-glow transition-colors"
+                  className="block py-2 hover:text-primary-glow transition-colors"
                 >
                   Algemene Voorwaarden
                 </Link>
@@ -97,7 +97,7 @@ const Footer = () => {
               <p>
                 <a
                   href={`tel:${PHONE}`}
-                  className="hover:text-primary-glow transition-colors"
+                  className="inline-block py-1 hover:text-primary-glow transition-colors"
                 >
                   {PHONE_DISPLAY}
                 </a>
@@ -116,7 +116,7 @@ const Footer = () => {
             <div className="flex items-center space-x-6 text-sm">
               <Link
                 to="/terms-of-service"
-                className="text-warm-white/80 hover:text-primary-glow transition-colors"
+                className="inline-block py-2 text-warm-white/80 hover:text-primary-glow transition-colors"
               >
                 Privacy
               </Link>

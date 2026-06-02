@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative overflow-x-clip">
       {/* Background Image */}
       <div 
         className="fixed inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0"
