@@ -26,72 +26,68 @@ const ContactSection = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-4 gap-6">
+              <div className="grid md:grid-cols-4 gap-6 md:divide-x md:divide-border">
                 {/* Location & Maps */}
-                <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">📍 Locatie</h4>
-                  <div className="space-y-3">
-                    <div className="text-black">
-                      <p className="font-semibold">Daffy's Trimsalon</p>
-                      <p>Spechtstraat 9</p>
-                      <p>6135 EJ Sittard</p>
-                    </div>
-                    <Button
-                      asChild
-                      variant="outline"
-                      className="w-full"
-                    >
-                      <a href={MAPS_URL} target="_blank" rel="noopener noreferrer">
-                        <MapPin className="w-4 h-4 mr-2" />
-                        Google Maps
-                      </a>
-                    </Button>
+                <div className="flex flex-col h-full md:px-2">
+                  <h4 className="font-semibold text-black mb-4">📍 Locatie</h4>
+                  <div className="text-black space-y-1 mb-4">
+                    <p className="font-semibold">Daffy's Trimsalon</p>
+                    <p>Spechtstraat 9</p>
+                    <p>6135 EJ Sittard</p>
                   </div>
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="w-full mt-auto"
+                  >
+                    <a href={MAPS_URL} target="_blank" rel="noopener noreferrer">
+                      <MapPin className="w-4 h-4 mr-2" />
+                      Google Maps
+                    </a>
+                  </Button>
                 </div>
 
                 {/* Contact */}
-                <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">💬 Contact</h4>
-                  <div className="space-y-3">
-                    <a href={`tel:${PHONE}`} className="flex items-center text-black hover:text-primary transition-colors">
-                      <Phone className="w-4 h-4 mr-2" />
-                      <span>{PHONE_DISPLAY}</span>
+                <div className="flex flex-col h-full md:px-2">
+                  <h4 className="font-semibold text-black mb-4">💬 Contact</h4>
+                  <a href={`tel:${PHONE}`} className="flex items-center text-black hover:text-primary transition-colors mb-4">
+                    <Phone className="w-4 h-4 mr-2" />
+                    <span>{PHONE_DISPLAY}</span>
+                  </a>
+                  <Button
+                    asChild
+                    variant="whatsapp"
+                    className="w-full mt-auto"
+                  >
+                    <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                      <MessageCircle className="w-4 h-4 mr-2" />
+                      WhatsApp
                     </a>
-                    <Button
-                      asChild
-                      variant="whatsapp"
-                      className="w-full"
-                    >
-                      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                        <MessageCircle className="w-4 h-4 mr-2" />
-                        WhatsApp
-                      </a>
-                    </Button>
-                  </div>
+                  </Button>
                 </div>
 
                 {/* Opening Hours */}
-                <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">🕐 Openingstijden</h4>
-                  <div className="space-y-1 text-sm text-black">
-                    <div className="flex justify-between">
+                <div className="flex flex-col h-full md:px-2">
+                  <h4 className="font-semibold text-black mb-4">🕐 Openingstijden</h4>
+                  <div className="space-y-1 text-sm text-black mb-4">
+                    <div className="flex justify-between gap-2">
                       <span>Dinsdag</span>
-                      <span className="font-semibold">9:00 - 15:00</span>
+                      <span className="font-semibold whitespace-nowrap">9:00 - 15:00</span>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between gap-2">
                       <span>Woensdag</span>
-                      <span className="font-semibold">9:00 - 15:00</span>
+                      <span className="font-semibold whitespace-nowrap">9:00 - 15:00</span>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between gap-2">
                       <span>Donderdag</span>
-                      <span className="font-semibold">9:00 - 15:00</span>
+                      <span className="font-semibold whitespace-nowrap">9:00 - 15:00</span>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between gap-2">
                       <span>Vrijdag</span>
-                      <span className="font-semibold">9:00 - 14:30</span>
+                      <span className="font-semibold whitespace-nowrap">9:00 - 14:30</span>
                     </div>
                   </div>
-                  <div className="bg-accent/30 p-3 rounded-lg border border-primary/20 mt-3">
+                  <div className="bg-accent/30 p-3 rounded-lg border border-primary/20 mt-auto">
                     <p className="text-sm font-semibold text-black">
                       ⚠️ Uitsluitend op afspraak
                     </p>
@@ -99,25 +95,21 @@ const ContactSection = () => {
                 </div>
 
                 {/* Online Booking */}
-                <div className="space-y-4">
-                  <h4 className="font-semibold text-black mb-3">🌐 Online Boeken</h4>
-                  <div className="text-center">
-                    <ExternalLink className="w-8 h-8 text-primary mx-auto mb-3" />
-                    <p className="text-sm text-black mb-4">
-                      Bekijk beschikbare tijden en maak direct een afspraak.
-                    </p>
-                    <Button
-                      asChild
-                      variant="luxury"
-                      size="lg"
-                      className="w-full"
-                    >
-                      <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Online Afspraak
-                      </a>
-                    </Button>
-                  </div>
+                <div className="flex flex-col h-full md:px-2">
+                  <h4 className="font-semibold text-black mb-4">🌐 Online Boeken</h4>
+                  <p className="text-sm text-black mb-4">
+                    Bekijk beschikbare tijden en maak direct een afspraak.
+                  </p>
+                  <Button
+                    asChild
+                    variant="luxury"
+                    className="w-full mt-auto"
+                  >
+                    <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Online Afspraak
+                    </a>
+                  </Button>
                 </div>
               </div>
             </CardContent>
