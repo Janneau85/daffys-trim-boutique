@@ -70,7 +70,7 @@ const TermsOfService = () => {
               <p>Betaling dient bij het ophalen van het huisdier te geschieden, tenzij anders is overeengekomen. Dit kan via een digitaal betaalverzoek of contant.</p>
               <p>Indien de klant niet op tijd betaalt, kan de trimsalon de teruggave van het behandelde dier weigeren totdat de betaling is voldaan.</p>
               <p>Indien de behandeling niet kan plaatsvinden vanwege gedragsproblemen of ernstige gezondheidsproblemen zoals losse tanden of ontstekingen, wordt het volledige bedrag van de geplande behandeling in rekening gebracht.</p>
-              <p><strong>Vlooienbehandeling:</strong> Indien een huisdier vlooien blijkt te hebben tijdens de behandeling, worden extra kosten (€27,50) in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
+              <p><strong>Vlooienbehandeling:</strong> Indien een hond vlooien blijkt te hebben tijdens de behandeling, worden extra kosten van €27,50 per hond in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
               <p><strong>Prijzen en Extra Werk:</strong> De vermelde v.a. prijzen gelden voor goed onderhouden vachten zonder extreme klitten, vervilting of andere uitzonderlijke omstandigheden. Indien wij voorafgaand aan de behandeling al extra werk verwachten, zullen wij dit altijd van tevoren met u bespreken. Indien tijdens de behandeling blijkt dat er onverwacht extra werk nodig is, zoals het verwijderen van klitten, vervilting of andere intensieve behandelingen die buiten de standaardbehandeling vallen, worden de hieraan verbonden extra kosten direct doorberekend tegen €65 per uur.</p>
             </div>
           </section>
