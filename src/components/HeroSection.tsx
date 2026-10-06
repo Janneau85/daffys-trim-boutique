@@ -41,7 +41,7 @@ const HeroSection = () => {
                   
                   <div className="space-y-2 text-black font-elegant">
                     <p>✨ Persoonlijke aandacht voor elk dier</p>
-                    <p>🏆 Vakkundige verzorging door gediplomeerd trimster</p>
+                    <p>🏆 Vakkundige verzorging door een gediplomeerde trimster</p>
                     <p>💛 Specialisatie in Pomeranian vachtverzorging</p>
                     <p>🌿 Rustige, stressvrije omgeving</p>
                   </div>
@@ -52,9 +52,9 @@ const HeroSection = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   asChild
-                  variant="luxury"
+                  variant="whatsapp"
                   size="lg"
-                  className="flex-1 sm:flex-none"
+                  className="w-full sm:w-auto"
                 >
                   <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                     <MessageCircle className="w-5 h-5" />
@@ -63,13 +63,13 @@ const HeroSection = () => {
                 </Button>
                 <Button
                   asChild
-                  variant="elegant"
+                  variant="luxury"
                   size="lg"
-                  className="flex-1 sm:flex-none"
+                  className="w-full sm:w-auto"
                 >
                   <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
                     <Calendar className="w-5 h-5" />
-                    Online Afspraak Plannen
+                    Afspraak maken
                   </a>
                 </Button>
               </div>

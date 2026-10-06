@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { MapPin, Phone, Clock, MessageCircle, ExternalLink } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Calendar } from "lucide-react";
 import { WHATSAPP_URL, BOOKING_URL, MAPS_URL, PHONE, PHONE_DISPLAY } from "@/lib/contact";
 
 const ContactSection = () => {
@@ -9,11 +9,11 @@ const ContactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-luxury font-bold text-black mb-4">
-            Contact & Afspraak
+            Contact & afspraak
           </h2>
           <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
-            Klaar om jouw hondje te laten verwennen? Neem contact op voor een afspraak 
-            of maak direct online een afspraak.
+            Klaar om je hondje te laten verwennen? Stuur een berichtje of plan direct
+            online een afspraak.
           </p>
         </div>
 
@@ -22,7 +22,7 @@ const ContactSection = () => {
           <Card className="shadow-soft border border-border mb-8">
             <CardHeader className="text-center">
               <CardTitle className="font-luxury text-2xl">
-                Contact & Afspraak
+                Contact & afspraak
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -96,7 +96,7 @@ const ContactSection = () => {
 
                 {/* Online Booking */}
                 <div className="flex flex-col h-full md:px-2">
-                  <h4 className="font-semibold text-black mb-4">🌐 Online Boeken</h4>
+                  <h4 className="font-semibold text-black mb-4">🌐 Online boeken</h4>
                   <p className="text-sm text-black mb-4">
                     Bekijk beschikbare tijden en maak direct een afspraak.
                   </p>
@@ -106,8 +106,8 @@ const ContactSection = () => {
                     className="w-full mt-auto"
                   >
                     <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Online Afspraak
+                      <Calendar className="w-4 h-4" />
+                      Afspraak maken
                     </a>
                   </Button>
                 </div>

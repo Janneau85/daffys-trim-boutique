@@ -40,7 +40,7 @@ const Footer = () => {
           {/* Quick Links */}
           <div>
             <h4 className="font-semibold mb-4 text-warm-white">
-              Snelle Links
+              Snelle links
             </h4>
             <ul className="text-warm-white/90">
               <li>
@@ -64,7 +64,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('faq')}
                   className="block py-2 hover:text-warm-white transition-colors"
                 >
-                  Veelgestelde Vragen
+                  Veelgestelde vragen
                 </button>
               </li>
               <li>
@@ -80,7 +80,7 @@ const Footer = () => {
                   to="/terms-of-service"
                   className="block py-2 hover:text-warm-white transition-colors"
                 >
-                  Algemene Voorwaarden
+                  Algemene voorwaarden
                 </Link>
               </li>
             </ul>
@@ -127,7 +127,7 @@ const Footer = () => {
         {/* Certificates */}
         <div className="mt-8 text-center">
           <div className="inline-flex items-center space-x-4 bg-warm-white/10 px-6 py-3 rounded-lg">
-            <span className="text-warm-white/80 text-sm">Gediplomeerd trimster</span>
+            <span className="text-warm-white/80 text-sm">Gediplomeerde trimster</span>
             <span className="text-warm-white/40">•</span>
             <span className="text-warm-white/80 text-sm">5+ jaar ervaring</span>
             <span className="text-warm-white/40">•</span>

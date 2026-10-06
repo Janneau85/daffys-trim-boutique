@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Star, ExternalLink } from "lucide-react";
+import { GOOGLE_REVIEWS_URL } from "@/lib/contact";
 
 const ReviewsSection = () => {
   const reviews = [
@@ -28,10 +30,10 @@ const ReviewsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-luxury font-bold text-black mb-4">
-            Wat Klanten Zeggen
+            Wat klanten zeggen
           </h2>
           <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
-            Lees de ervaringen van onze tevreden klanten en hun viervoetige vriendjes
+            Ervaringen van baasjes en hun viervoetige vriendjes
           </p>
         </div>
 
@@ -78,14 +80,17 @@ const ReviewsSection = () => {
                 <Star key={i} className="w-6 h-6 fill-yellow-500 text-yellow-500" />
               ))}
             </div>
-            <span className="text-2xl font-bold text-primary">5.0/5</span>
+            <span className="text-2xl font-bold text-primary">5,0/5</span>
           </div>
-          <p className="text-black font-elegant">
-            Gemiddelde beoordeling van 3 Google Reviews
+          <p className="text-black font-elegant mb-6">
+            Gemiddelde beoordeling op Google
           </p>
-          <p className="text-sm text-black mt-2">
-            Gebaseerd op Google Reviews
-          </p>
+          <Button asChild variant="outline" size="lg">
+            <a href={GOOGLE_REVIEWS_URL} target="_blank" rel="noopener noreferrer">
+              Lees alle reviews op Google
+              <ExternalLink className="w-4 h-4" />
+            </a>
+          </Button>
         </div>
       </div>
     </section>

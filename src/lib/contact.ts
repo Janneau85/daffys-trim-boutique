@@ -7,3 +7,6 @@ export const WHATSAPP_URL = "https://wa.me/31640338798";
 export const BOOKING_URL = "https://portal.looppiness.com/daffy-s-trimsalon/";
 export const INSTAGRAM_URL = "https://www.instagram.com/daffys_trimsalon/";
 export const MAPS_URL = "https://maps.google.com/?q=Spechtstraat+9+Sittard";
+export const GOOGLE_REVIEWS_URL = "https://g.page/r/CXU-NMP6NrLWEAE";
+// JSON-feed-URL van Behold (behold.so → Add Feed → JSON). Leeg = alleen de volg-knop tonen.
+export const INSTAGRAM_FEED_URL = "";

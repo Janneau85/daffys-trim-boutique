@@ -1,28 +1,42 @@
+import type { ReactNode } from "react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
+import { Calendar, MessageCircle } from "lucide-react";
 import { WHATSAPP_URL, BOOKING_URL } from "@/lib/contact";
 
 const FAQSection = () => {
-  const faqs = [
+  const faqs: { question: string; answer: ReactNode }[] = [
     {
-      question: "Kan ik bij de behandeling van mijn huisdier blijven?",
-      answer: "Nee, om de veiligheid en het welzijn van zowel uw huisdier als ons team te waarborgen, vragen wij eigenaren vriendelijk om tijdens de behandeling niet aanwezig te zijn. Wij begrijpen dat u zich betrokken voelt bij het welzijn van uw huisdier, maar het is belangrijk om te weten dat onze ervaren professionals getraind zijn om uw huisdier de best mogelijke zorg te bieden. Uw aanwezigheid kan onbedoeld stress en afleiding veroorzaken voor uw huisdier en het behandelingsproces bemoeilijken. Tijdens de behandeling kunt u erop vertrouwen dat uw huisdier in goede handen is. We houden u graag op de hoogte van het verloop van de behandeling en beantwoorden al uw vragen en zorgen voor en na de afspraak. Uw begrip en medewerking helpen ons om de behandeling soepel en veilig te laten verlopen. Als u specifieke vragen heeft over de behandeling van uw huisdier, aarzel dan niet om contact met ons op te nemen. We staan klaar om u te assisteren en uw huisdier de best mogelijke zorg te bieden."
+      question: "Kan ik bij de behandeling van mijn hond blijven?",
+      answer:
+        "Nee. Honden zijn vaak rustiger als hun baasje er niet bij is, en dat maakt de behandeling veiliger. Zodra je hond klaar is stuur ik je een berichtje, en voor en na de afspraak beantwoord ik graag al je vragen.",
     },
     {
       question: "Waarom kan de prijs verschillen per ras of kruising?",
-      answer: "Onderhoud van de vacht; niet alle vachten zijn even goed onderhouden. Goed onderhouden vachten kost minder tijd in de trimsalon dan vachten die minder goed zijn onderhouden. Gedrag; De ene hond is het gewend om op tafel te staan en staat goed stil, een andere hond is erg bewegelijk, een volgende hond wil alleen maar liggen en weer andere hond vindt het allemaal wat spannend. Verschil binnen een ras; Bij hetzelfde ras kunnen ook veel verschillende vachttypes zitten. Denk aan veel/weinig onderwol, krullen, ruwhaar etc. Castratenvacht; de vacht van een hond die gecastreerd is, verandert vaak, waardoor dit veel meerwerk kan zijn. Honden met vlooien; Honden met vlooien moeten met een speciale shampoo gewassen worden. Ook moeten we nadien de trimsalon volledig schoonmaken en ontsmetten om een vlooienplaag te voorkomen"
+      answer: (
+        <ul className="list-disc pl-5 space-y-2">
+          <li><strong>Onderhoud van de vacht:</strong> een goed onderhouden vacht kost minder tijd dan een vacht met klitten.</li>
+          <li><strong>Gedrag:</strong> de ene hond staat rustig op tafel, de andere is beweeglijk, wil alleen liggen of vindt het allemaal wat spannend.</li>
+          <li><strong>Vachttype:</strong> ook binnen één ras verschillen vachten, bijvoorbeeld in onderwol, krullen of ruwhaar.</li>
+          <li><strong>Castratievacht:</strong> na castratie verandert de vacht vaak, en dat kan veel extra werk zijn.</li>
+          <li><strong>Vlooien:</strong> een hond met vlooien moet met een speciale shampoo gewassen worden, en daarna maak ik de salon volledig schoon en ontsmet ik alles.</li>
+        </ul>
+      ),
     },
     {
       question: "Hoe kan ik betalen?",
-      answer: "Contant of via een tikkie bij het ophalen van jouw hond."
+      answer: "Contant of met een Tikkie, bij het ophalen van je hond.",
     },
     {
       question: "Hoe lang duurt een trimbehandeling?",
-      answer: "De duur van een trimbehandeling kunnen we vooraf niet exact bepalen. Dit hangt af van verschillende factoren, zoals de vachtconditie, het ras en het type behandeling. Wij nemen altijd de tijd om jouw hond op een rustige en comfortabele manier te verzorgen. Geen zorgen! Zodra jouw hond klaar is, sturen we je een berichtje. Zo weet je precies wanneer je hem kunt ophalen."
+      answer:
+        "Dat hangt af van de vacht, het ras en de behandeling, dus een exacte tijd kan ik vooraf niet geven. Ik neem de tijd om je hond rustig te verzorgen en stuur je een berichtje zodra hij klaar is om opgehaald te worden.",
     },
     {
       question: "Hoe vaak moet mijn hond getrimd worden?",
-      answer: "Dit hangt af van het ras en het vachttype. Voor de meeste kleine rassen adviseer ik elke 6-8 weken. Ik geef altijd persoonlijk advies op basis van jouw hond en jullie wensen."
-    }
+      answer:
+        "Dat hangt af van het ras en het vachttype. Voor de meeste kleine rassen adviseer ik elke 6 tot 8 weken. Ik geef je graag persoonlijk advies voor jouw hond.",
+    },
   ];
 
   return (
@@ -30,19 +44,19 @@ const FAQSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-luxury font-bold text-black mb-4">
-            Veel Gestelde Vragen
+            Veelgestelde vragen
           </h2>
           <p className="text-lg text-black font-elegant max-w-2xl mx-auto">
-            Hier vind je antwoorden op de meest gestelde vragen. Heb je nog andere vragen? 
-            Neem gerust contact op!
+            Hier vind je antwoorden op de meest gestelde vragen. Staat je vraag er niet bij?
+            Stuur me gerust een berichtje!
           </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
-              <AccordionItem 
-                key={index} 
+              <AccordionItem
+                key={index}
                 value={`item-${index}`}
                 className="bg-card border border-border rounded-lg shadow-soft px-6"
               >
@@ -62,25 +76,21 @@ const FAQSection = () => {
             Nog andere vragen?
           </h3>
           <p className="text-muted-foreground mb-6 font-elegant">
-            Ik help je graag verder. Stuur een berichtje via WhatsApp of plan direct online een afspraak in.
+            Ik help je graag verder. Stuur een WhatsApp of plan direct online een afspraak.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors font-elegant"
-            >
-              WhatsApp Vraag
-            </a>
-            <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-elegant"
-            >
-              Online Afspraak Inplannen
-            </a>
+            <Button asChild variant="whatsapp" size="lg" className="w-full sm:w-auto">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+                <MessageCircle className="w-4 h-4" />
+                WhatsApp
+              </a>
+            </Button>
+            <Button asChild variant="luxury" size="lg" className="w-full sm:w-auto">
+              <a href={BOOKING_URL} target="_blank" rel="noopener noreferrer">
+                <Calendar className="w-4 h-4" />
+                Afspraak maken
+              </a>
+            </Button>
           </div>
         </div>
       </div>

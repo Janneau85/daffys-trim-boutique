@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { VLOOIENTOESLAG, formatPrijs } from "@/lib/prijzen";
 
 const TermsOfService = () => {
   const navigate = useNavigate();
@@ -15,11 +16,11 @@ const TermsOfService = () => {
             className="mb-6"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Terug naar Home
+            Terug naar home
           </Button>
           
           <h1 className="text-4xl font-luxury font-bold text-black mb-4">
-            Algemene Voorwaarden
+            Algemene voorwaarden
           </h1>
           <p className="text-lg text-black font-elegant mb-8">
             <strong>Toepassing:</strong> Door gebruik te maken van de diensten van Daffy's Trimsalon, gaat de klant akkoord met deze algemene voorwaarden.
@@ -39,27 +40,27 @@ const TermsOfService = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-luxury font-bold text-black mb-4">2. Afspraken en Annuleringen</h2>
+            <h2 className="text-2xl font-luxury font-bold text-black mb-4">2. Afspraken en annuleringen</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Annuleren van Afspraken:</strong> Afspraken kunnen kosteloos worden geannuleerd, verzet of gewijzigd tot 24 uur van tevoren. Indien een afspraak niet wordt nagekomen of minder dan 24 uur van tevoren wordt geannuleerd, worden de volledige kosten van de geplande behandeling in rekening gebracht.</p>
-              <p><strong>Te Laat Komen:</strong> Bij een vertraging van 15 minuten of langer wordt de afspraak als no-show beschouwd en wordt de volledige behandeling in rekening gebracht.</p>
-              <p><strong>Ophalen van de Hond:</strong> De hond dient binnen 30 minuten na het opgegeven ophaaltijdstip te worden opgehaald. Indien de hond later wordt opgehaald, wordt er een oppasvergoeding van €12,50 per 30 minuten in rekening gebracht.</p>
+              <p><strong>Annuleren van afspraken:</strong> Afspraken kunnen kosteloos worden geannuleerd, verzet of gewijzigd tot 24 uur van tevoren. Indien een afspraak niet wordt nagekomen of minder dan 24 uur van tevoren wordt geannuleerd, worden de volledige kosten van de geplande behandeling in rekening gebracht.</p>
+              <p><strong>Te laat komen:</strong> Bij een vertraging van 15 minuten of langer wordt de afspraak als no-show beschouwd en wordt de volledige behandeling in rekening gebracht.</p>
+              <p><strong>Ophalen van de hond:</strong> De hond dient binnen 30 minuten na het opgegeven ophaaltijdstip te worden opgehaald. Indien de hond later wordt opgehaald, wordt er een oppasvergoeding van €12,50 per 30 minuten in rekening gebracht.</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-luxury font-bold text-black mb-4">3. Gedrags- en Behandelingsvoorwaarden</h2>
+            <h2 className="text-2xl font-luxury font-bold text-black mb-4">3. Gedrags- en behandelingsvoorwaarden</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Toestemming voor Mondinspectie:</strong> Voor gebitsbehandelingen is het noodzakelijk dat het huisdier de mondinspectie toestaat. Indien het dier agressief reageert of de behandeling niet accepteert, kan de behandeling niet doorgaan. Wees eerlijk over het gedrag van je huisdier bij het maken van de afspraak.</p>
+              <p><strong>Toestemming voor mondinspectie:</strong> Voor gebitsbehandelingen is het noodzakelijk dat het huisdier de mondinspectie toestaat. Indien het dier agressief reageert of de behandeling niet accepteert, kan de behandeling niet doorgaan. Wees eerlijk over het gedrag van je huisdier bij het maken van de afspraak.</p>
               <p><strong>Gezondheidsinformatie:</strong> Klanten dienen de trimsalon tijdig te informeren over de gezondheid en gedragsproblemen van hun huisdier, inclusief eventuele medische aandoeningen of gedragsproblemen die de behandeling kunnen beïnvloeden.</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-luxury font-bold text-black mb-4">4. Behandelingslimieten en Voorbereiding</h2>
+            <h2 className="text-2xl font-luxury font-bold text-black mb-4">4. Behandelingslimieten en voorbereiding</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Voorbereiding op Behandeling:</strong> Geef je huisdier minimaal twee uur voor de behandeling geen eten, om misselijkheid of ongemak tijdens de behandeling te voorkomen.</p>
-              <p><strong>Beperkingen bij Ernstige Gezondheidsproblemen:</strong> Bij ernstig vervuilde gebitten of andere ernstige gezondheidsproblemen, zoals losse tanden of ontstekingen, kan de behandeling niet worden uitgevoerd. In dergelijke gevallen zal de klant worden doorverwezen naar een dierenarts voor verdere zorg.</p>
+              <p><strong>Voorbereiding op de behandeling:</strong> Geef je huisdier minimaal twee uur voor de behandeling geen eten, om misselijkheid of ongemak tijdens de behandeling te voorkomen.</p>
+              <p><strong>Beperkingen bij ernstige gezondheidsproblemen:</strong> Bij ernstig vervuilde gebitten of andere ernstige gezondheidsproblemen, zoals losse tanden of ontstekingen, kan de behandeling niet worden uitgevoerd. In dergelijke gevallen zal de klant worden doorverwezen naar een dierenarts voor verdere zorg.</p>
               <p><strong>Herhaalbehandelingen:</strong> Bij ernstige tandplak of tandsteen kan het nodig zijn om meerdere behandelingen uit te voeren om het gebit volledig schoon te krijgen. Dit wordt altijd vooraf met de klant besproken.</p>
             </div>
           </section>
@@ -70,17 +71,17 @@ const TermsOfService = () => {
               <p>Betaling dient bij het ophalen van het huisdier te geschieden, tenzij anders is overeengekomen. Dit kan via een digitaal betaalverzoek of contant.</p>
               <p>Indien de klant niet op tijd betaalt, kan de trimsalon de teruggave van het behandelde dier weigeren totdat de betaling is voldaan.</p>
               <p>Indien de behandeling niet kan plaatsvinden vanwege gedragsproblemen of ernstige gezondheidsproblemen zoals losse tanden of ontstekingen, wordt het volledige bedrag van de geplande behandeling in rekening gebracht.</p>
-              <p><strong>Vlooienbehandeling:</strong> Indien een hond vlooien blijkt te hebben tijdens de behandeling, worden extra kosten van €27,50 per hond in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
-              <p><strong>Prijzen en Extra Werk:</strong> De vermelde v.a. prijzen gelden voor goed onderhouden vachten zonder extreme klitten, vervilting of andere uitzonderlijke omstandigheden. Indien wij voorafgaand aan de behandeling al extra werk verwachten, zullen wij dit altijd van tevoren met u bespreken. Indien tijdens de behandeling blijkt dat er onverwacht extra werk nodig is, zoals het verwijderen van klitten, vervilting of andere intensieve behandelingen die buiten de standaardbehandeling vallen, worden de hieraan verbonden extra kosten direct doorberekend tegen €65 per uur.</p>
+              <p><strong>Vlooienbehandeling:</strong> Indien een hond vlooien blijkt te hebben tijdens de behandeling, worden extra kosten van {formatPrijs(VLOOIENTOESLAG)} per hond in rekening gebracht voor de noodzakelijke vlooienmaatregelen.</p>
+              <p><strong>Prijzen en extra werk:</strong> De vermelde v.a. prijzen gelden voor goed onderhouden vachten zonder extreme klitten, vervilting of andere uitzonderlijke omstandigheden. Indien wij voorafgaand aan de behandeling al extra werk verwachten, zullen wij dit altijd van tevoren met je bespreken. Indien tijdens de behandeling blijkt dat er onverwacht extra werk nodig is, zoals het verwijderen van klitten, vervilting of andere intensieve behandelingen die buiten de standaardbehandeling vallen, worden de hieraan verbonden extra kosten direct doorberekend tegen €65 per uur.</p>
             </div>
           </section>
 
           <section>
             <h2 className="text-2xl font-luxury font-bold text-black mb-4">6. Aansprakelijkheid</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Schade aan Huisdieren:</strong> De trimsalon is niet aansprakelijk voor schade aan huisdieren, tenzij deze schade het gevolg is van nalatigheid van de trimsalon.</p>
-              <p><strong>Verantwoordelijkheid Klant:</strong> De eigenaar van het huisdier blijft altijd aansprakelijk voor schade die door hun huisdier aan derden of eigendommen wordt veroorzaakt.</p>
-              <p><strong>Informatie van de Klant:</strong> De trimsalon is niet aansprakelijk voor schade of incidenten die het gevolg zijn van onjuiste informatie die door de klant wordt verstrekt met betrekking tot hun huisdier.</p>
+              <p><strong>Schade aan huisdieren:</strong> De trimsalon is niet aansprakelijk voor schade aan huisdieren, tenzij deze schade het gevolg is van nalatigheid van de trimsalon.</p>
+              <p><strong>Verantwoordelijkheid van de klant:</strong> De eigenaar van het huisdier blijft altijd aansprakelijk voor schade die door hun huisdier aan derden of eigendommen wordt veroorzaakt.</p>
+              <p><strong>Informatie van de klant:</strong> De trimsalon is niet aansprakelijk voor schade of incidenten die het gevolg zijn van onjuiste informatie die door de klant wordt verstrekt met betrekking tot hun huisdier.</p>
             </div>
           </section>
 
@@ -94,12 +95,12 @@ const TermsOfService = () => {
           <section>
             <h2 className="text-2xl font-luxury font-bold text-black mb-4">8. Klachten</h2>
             <div className="space-y-3 text-black">
-              <p><strong>Indienen van Klachten:</strong> Klachten over de dienstverlening dienen binnen 24 uur na de behandeling schriftelijk te worden gemeld. De trimsalon zal zich inspannen om het probleem naar tevredenheid op te lossen.</p>
+              <p><strong>Indienen van klachten:</strong> Klachten over de dienstverlening dienen binnen 24 uur na de behandeling schriftelijk te worden gemeld. De trimsalon zal zich inspannen om het probleem naar tevredenheid op te lossen.</p>
             </div>
           </section>
 
           <section>
-            <h2 className="text-2xl font-luxury font-bold text-black mb-4">9. Wijzigingen in de Algemene Voorwaarden</h2>
+            <h2 className="text-2xl font-luxury font-bold text-black mb-4">9. Wijzigingen in de algemene voorwaarden</h2>
             <div className="space-y-3 text-black">
               <p>De trimsalon behoudt zich het recht voor om de algemene voorwaarden op elk moment te wijzigen. Klanten worden op de hoogte gesteld van wijzigingen die van invloed zijn op hun rechten en verplichtingen.</p>
             </div>
@@ -114,7 +115,7 @@ const TermsOfService = () => {
             size="lg"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Terug naar Home
+            Terug naar home
           </Button>
         </div>
       </div>
