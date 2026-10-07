@@ -56,7 +56,7 @@ const Footer = () => {
                   onClick={() => scrollToSection('behandelingen')}
                   className="block py-2 hover:text-warm-white transition-colors"
                 >
-                  Prijslijst
+                  Behandelingen
                 </button>
               </li>
               <li>
